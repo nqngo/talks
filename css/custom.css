@@ -1,0 +1,25 @@
+
+.txt-align-l {
+  text-align: left;
+}
+
+
+.container {
+  display: flex;
+
+  .col {
+    flex: 1;
+  }
+}
+
+.txt-align-r {
+  text-align: right;
+}
+
+.colors-yellow-400 {
+    color: #FBBF24;
+}
+
+.colors-yellow-500 {
+    color: #F59E0B;
+}
