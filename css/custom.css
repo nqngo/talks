@@ -3,17 +3,24 @@
   text-align: left;
 }
 
-
 .container {
   display: flex;
+}
 
-  .col {
-    flex: 1;
-  }
+.container .col {
+  flex: 1;
 }
 
 .txt-align-r {
   text-align: right;
+}
+
+.background-1990 {
+  text-shadow: 0.03em 0.03em 3px #3CB9FC,
+               0.04em 0.04em 3px #B537F2,
+               0.05em 0.05em 3px #8A2BE2,
+               0.06em 0.06em 3px #120052,
+               0.085em 0.085em 0 #f72119;
 }
 
 .colors-yellow-400 {

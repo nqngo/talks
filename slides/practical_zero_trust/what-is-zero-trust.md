@@ -51,7 +51,7 @@
 - Like _"Cloud"_ - depends on what you want to hear.
 - An (architectural) design mentality.
 - Born from combination of processes and technologies.
-- A unfied experience for staffs, partners and users.
+- A unified experience for staffs, partners and users.
 - Reduced management complexity.
 ---
 
@@ -69,4 +69,5 @@
 - A one-off project
 - An off-the-shelf product
 - Move everything to the _"cloud"_
-
+- Replacement for previous technologies
+- Trust nothing

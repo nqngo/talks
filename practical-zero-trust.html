@@ -1,59 +1,66 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>Practical Zero Trust</title>
+        <title>Practical Zero Trust</title>
 
-		<link rel="stylesheet" href="reveal.js/dist/reset.css">
-		<link rel="stylesheet" href="reveal.js/dist/reveal.css">
-		<link rel="stylesheet" href="reveal.js/dist/theme/night.css">
-		<link rel="stylesheet" href="reveal.js/plugin/highlight/monokai.css">
-		<link rel="stylesheet" href="css/custom.css">
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-			
-				<section id="title-slide">
-					<h3 class="title">PRACTICAL ZERO TRUST</h3>
-					<p>
-						<small>An exercise in transition to <a class="fg-purple">Zero Trust</a> security model for SMB DevOps</small>
-					</p>
-				</section>
+        <link rel="stylesheet" href="reveal.js/dist/reset.css">
+        <link rel="stylesheet" href="reveal.js/dist/reveal.css">
+        <link rel="stylesheet" href="reveal.js/dist/theme/night.css">
+        <link rel="stylesheet" href="reveal.js/plugin/highlight/monokai.css">
+        <link rel="stylesheet" href="css/custom.css">
+    </head>
+    <body>
+        <div class="reveal">
+            <div class="slides">
 
-				<section id="whomami"
-						 data-markdown="slides/common/whoami.md">
-				</section>
-				<section id="introduction"
-						 data-markdown="slides/practical_zero_trust/what-is-zero-trust.md"
-						 data-separator-vertical="^---"
-						 data-separator="^------">
-				</section>
-				<section id="design"
-				data-markdown="slides/practical_zero_trust/zero-trust-design.md"
-				data-separator-vertical="^---"
-				data-separator="^------">
-	   </section>
-			</div>
-		</div>
+                <section id="title-slide">
+                    <h3 class="title">PRACTICAL ZERO TRUST</h3>
+                    <p>
+                        <small>An exercise in transition to <a class="fg-purple">Zero Trust</a> security model for SMB DevOps</small>
+                    </p>
+                </section>
 
-		<script src="reveal.js/dist/reveal.js"></script>
-		<script src="reveal.js/plugin/notes/notes.js"></script>
-		<script src="reveal.js/plugin/search/search.js"></script>
-		<script src="reveal.js/plugin/markdown/markdown.js"></script>
-		<script src="reveal.js/plugin/highlight/highlight.js"></script>
-		<script>
-			Reveal.initialize({
-				hash: true,
-				plugins: [
-					RevealMarkdown,
-					RevealHighlight,
-					RevealSearch,
-					RevealNotes
-				]
-			});
-		</script>
-	</body>
+                <section id="whomami"
+                         data-markdown="slides/common/whoami.md">
+                </section>
+                <section id="introduction"
+                         data-markdown="slides/practical_zero_trust/what-is-zero-trust.md"
+                         data-separator-vertical="^---"
+                         data-separator="^------">
+                </section>
+                <section id="design"
+                         data-markdown="slides/practical_zero_trust/zero-trust-design.md"
+                         data-separator-vertical="^---"
+                         data-separator="^------">
+                </section>
+                <section id="exercise"
+                   data-markdown="slides/practical_zero_trust/zero-trust-exercise.md"
+                   data-separator-vertical="^---"
+                   data-separator="^------">
+             </section>
+            </div>
+        </div>
+
+        <script src="reveal.js/dist/reveal.js"></script>
+        <script src="reveal.js/plugin/notes/notes.js"></script>
+        <script src="reveal.js/plugin/search/search.js"></script>
+        <script src="reveal.js/plugin/markdown/markdown.js"></script>
+        <script src="reveal.js/plugin/highlight/highlight.js"></script>
+        <script src="reveal.js-plantuml/dist/plantuml.js"></script>
+        <script>
+            Reveal.initialize({
+                hash: true,
+                plugins: [
+                    RevealMarkdown,
+                    RevealSearch,
+                    RevealNotes,
+                    RevealHighlight,
+                    RevealPlantUML
+                ]
+            });
+        </script>
+    </body>
 </html>
