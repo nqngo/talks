@@ -3,7 +3,7 @@
 
 - _Early 90's_ - Antiviruses
 - _Late 90's_ - "Deep Package Inspection"
-- _Early 2000's_ - PKI
+- _Early 2000's_ - Web of Trust, PKI
 - _Late 2000's_ - Next Generation Firewalls
 - _Early 2010's_ - Defense-in-depth
 - _Now_ - Zero Trust
@@ -53,6 +53,8 @@
 - Born from combination of processes and technologies.
 - A unified experience for staffs, partners and users.
 - Reduced management complexity.
+- Readiness to handle dynamic environment.
+
 ---
 
 <h3><span class="colors-yellow-400">Zero Trust</span> Principles</h3>
@@ -70,4 +72,4 @@
 - An off-the-shelf product
 - Move everything to the _"cloud"_
 - Replacement for previous technologies
-- Trust nothing
+- Complete absence of trust

@@ -1,9 +1,9 @@
 ## Today's goal
 
 1. Explore zero trust principles.
-2. Identify weakness in traditional castle-and-moat infrastructure.
-3. Transform the infrastructure using zero trust fundamentals.
-4. Beyond zero trust.
+2. Ops: Identify weakness in traditional castle-and-moat infrastructure.
+3. Ops: Apply zero trust fundamentals without breaking the bank.
+4. Dev: Zero trust in developers' environment.
 
 ---
 
@@ -79,3 +79,4 @@ Implement:
 - Encryption at rest.
 - In-transit encryption.
 - Data classification.
+- Data redundancy.

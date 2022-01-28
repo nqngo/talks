@@ -1,93 +1,169 @@
-<h3>Let's go back to <span class="colors-yellow-500 background-1990">the 90s</span></h3>
+<h3><span class="colors-yellow-400">Ops Session:</span> <span class="colors-yellow-500 background-1990"> business</span> scenario</h3>
+
+- *LaserCo.* is a laser cutting business.
+- Produced a winning laser quoting app.
+- Large revenue from B2B.
+- Big investment in IT infrastructures & staffs.
+- COVID-19 causes staffs shortage & requires remote working.
+- Your task: improve security posture of the company.
 
 ---
 
-# PlantUML Markdown
+<h3><span class="colors-yellow-400">Ops Session:</span> IT Components</h3>
 
-```plantuml
+```language-plantuml
 @startuml
-skinparam linetype ortho
+!theme crt-amber
+skinparam roundCorner 15
+skinparam backgroundColor transparent
+skinparam componentStyle rectangle
+
+actor "Dev"
+actor "Staff"
 
 cloud "WAN" as WAN
-node "LAN" as LAN
-interface "FLAT network" as FLAT
 
-WAN -- LAN
-LAN .. FLAT
+cloud "SAAS" as SAAS {
 
-frame "LegacyApp" as LegacyAPP {
-[Website] <<PHP>>
-[Billing] <<Java>>
+    component "One Drive"
+    component "MS Exchange"
 }
 
-frame "ModernApp" as APP {
-[FancyWebApp] <<NodeJS>>
+cloud "CLOUD" as CLD {
+    [WWW] <<Wordpress>>
+    [QuotingApp] <<Python>>
+    database "DB-as-a-Service" as REMDB
 }
 
-node "LegacyHardware" as LegacyHW{
-[LaserMachine] <<Windows XP>>
+cloud "LAN" as LAN {
+
+    together {
+        [Billing] <<PHP>>
+        [Quoting] <<Java>>
+        database "DB" as DB
+    }
+    together {
+       
+        [LaserMachine] <<Windows XP>>
+        
+        [DEV{1..3}] <<OSX>>
+        [OFFICE{1..8}] <<Windows 10>>
+    }
+
+    together {
+        [Chromecast]
+        [SmartTV]
+        [PRINT{1..3}]
+        [NVR]
+        [CAM{1..10}]
+    }
+
 }
 
-node "Hardware" as HW {
-[DEV{1..5}] <<OSX>>
-[OFFICE{1..2}] <<Windows 10>>
-}
+Dev ~d~> [DEV{1..3}]: RemoteDesktop
+Staff ~d~> [OFFICE{1..8}]: RemoteDesktop
 
-database "MySql" as DB {
-[DB{1..3}]
-}
+WAN <.d.> LAN : border firewall
+WAN . SAAS
+WAN .r.. [QuotingApp]
+WAN .r.. [WWW]
 
-FLAT .. LegacyAPP
-FLAT .. APP
-FLAT .. LegacyHW
-FLAT .. HW
-FLAT ... DB
+[WWW] .. REMDB
+[QuotingApp] .. REMDB
+
+[OFFICE{1..8}] .d.> [SmartTV]
+[DEV{1..3}] .d.> [SmartTV]
+[LaserMachine] .[hidden]. [NVR]
+[LaserMachine] .[hidden]. [CAM{1..10}]
+
+[Billing] .d. DB
+[Quoting] .d. DB
 @enduml
 ```
 
 ---
 
-# PlantUML HTML
+<h3><span class="colors-yellow-400">Ops Session:</span> Staff Complaints</h3>
 
-<pre>
-<code class="plantuml">
+1. Can't print remotely.
+2. Too many passwords.
+3. Password changes too regularly.
+4. Almost suffer a ransomware attack.
+5. Hard to share files.
+6. Staff documents are lost when they quit.
+7. Have to manually monitor if services are down.
+8. Root SSH password login.
+9. Source code is in a zip file.
+
+<!-- ```language-plantuml
 @startuml
-skinparam linetype ortho
+!theme crt-amber
+skinparam roundCorner 15
+skinparam backgroundColor transparent
+skinparam componentStyle rectangle
 
 cloud "WAN" as WAN
-node "LAN" as LAN
-interface "FLAT network" as FLAT
 
-WAN -- LAN
-LAN .. FLAT
+cloud "SAAS" as SAAS {
 
-frame "LegacyApp" as LegacyAPP {
-[Website] <<PHP>>
-[Billing] <<Java>>
+    component "One Drive"
+    component "MS Exchange"
 }
 
-frame "ModernApp" as APP {
-[FancyWebApp] <<NodeJS>>
+cloud "CLOUD" as CLD {
+    [WWW] <<Wordpress>>
+    [QuotingApp] <<TS>>
+    database "DB-as-a-Service" as REMDB
 }
 
-node "LegacyHardware" as LegacyHW{
-[LaserMachine] <<Windows XP>>
+cloud "LAN" as LAN {
+
+    together {
+        component "LegacyApp" as LEGAPP {
+            [Billing] <<PHP>>
+            [Quoting] <<Java>>
+        }
+
+        database "DB" as DB
+    }
+    together {
+        component "LegacyHardware" as LEGHW {
+            [LaserMachine] <<Windows XP>>
+        }
+
+        component "Hardware" as HW {
+            [DEV{1..3}] <<OSX>>
+            [OFFICE{1..8}] <<Windows 10>>
+        }
+    }
+
+    together {
+        component "IOT" as IOT{
+            [Chromecast]
+            [SmartTV]
+        }
+
+        component "Security" as SEC {
+            [NVR]
+            [Camera{1..10}]
+        }
+    }
+
 }
 
-node "Hardware" as HW {
-[DEV{1..5}] <<OSX>>
-[OFFICE{1..2}] <<Windows 10>>
-}
+WAN <.d.> LAN : border firewall
+WAN . SAAS
+WAN .r.. [QuotingApp]
+WAN .r.. [WWW]
 
-database "MySql" as DB {
-[DB{1..3}]
-}
+[WWW] .. REMDB
+[QuotingApp] .. REMDB
 
-FLAT .. LegacyAPP
-FLAT .. APP
-FLAT .. LegacyHW
-FLAT .. HW
-FLAT ... DB
+[OFFICE{1..8}] .d.> [SmartTV]
+[DEV{1..3}] .d.> [SmartTV]
+LEGHW .[hidden]. SEC
+
+[Billing] .d. DB
+[Quoting] .d. DB
 @enduml
-</code>
-</pre>
+``` -->

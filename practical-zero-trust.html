@@ -19,7 +19,7 @@
                 <section id="title-slide">
                     <h3 class="title">PRACTICAL ZERO TRUST</h3>
                     <p>
-                        <small>An exercise in transition to <a class="fg-purple">Zero Trust</a> security model for SMB DevOps</small>
+                        <small>An exercise in applying <a class="fg-purple">Zero Trust</a> as DevOps</small>
                     </p>
                 </section>
 
@@ -49,16 +49,20 @@
         <script src="reveal.js/plugin/search/search.js"></script>
         <script src="reveal.js/plugin/markdown/markdown.js"></script>
         <script src="reveal.js/plugin/highlight/highlight.js"></script>
-        <script src="reveal.js-plantuml/dist/plantuml.js"></script>
         <script>
             Reveal.initialize({
                 hash: true,
+                plantuml: {
+                    serverPath: 'http://www.plantuml.com/plantuml/svg/'
+                },
+                dependencies: [
+                    { src: '//cdn.jsdelivr.net/npm/reveal-plantuml' },
+                ],
                 plugins: [
                     RevealMarkdown,
                     RevealSearch,
                     RevealNotes,
-                    RevealHighlight,
-                    RevealPlantUML
+                    RevealHighlight
                 ]
             });
         </script>
