@@ -1,0 +1,16 @@
+.title-slide header:after {
+    font-size: 1.4rem;
+}
+
+.title-slide footer:after {
+    font-size: 1.2rem;
+    content: "Jan 2022"
+}
+
+.color-yubico-green {
+    color: #9ACA3C;
+}
+
+.color-yubico-blue {
+    color: #325F74;
+}

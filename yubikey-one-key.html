@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <title>Practical Zero Trust</title>
+
+        <link rel="stylesheet" href="reveal.js/dist/reset.css">
+        <link rel="stylesheet" href="reveal.js/dist/reveal.css">
+        <link rel="stylesheet" href="reveal.js/dist/theme/night.css">
+        <link rel="stylesheet" href="reveal.js/plugin/highlight/monokai.css">
+        <link rel="stylesheet" href="css/common.css">
+        <link rel="stylesheet" href="css/yubikey-one-key.css">
+    </head>
+    <body>
+        <div class="reveal">
+
+            <header/>
+
+            <div class="slides">
+
+                <section id="title-slide"
+                         data-state="title-slide"
+                         data-background-image="img/yubico-splash.png"
+                         data-background-position="right bottom"
+                         data-background-size="100%"
+                         data-background-opacity="0.2">
+                    <h3 class="title">ONE KEY TO RULE THEM ALL</h3>
+                    <p>
+                        <small>
+                            <a class="colors-yellow-400">GPG</a> +
+                            <a class="colors-yellow-400">SSH</a> +
+                            <a class="colors-yellow-400">FIDO2</a> +
+                            <a class="colors-yellow-400">MFA</a> +
+                            <a class="colors-yellow-400">Zero Trust</a>
+                            with YubiKey
+                        </small>
+                    </p>
+                </section>
+
+                <section id="whomami"
+                         data-markdown="slides/common/whoami.md">
+                </section>
+                <section id="introduction"
+                         data-markdown="slides/yubikey_one_key/what-is-yubikey.md"
+                         data-separator-vertical="^---"
+                         data-separator="^------">
+                </section>
+            </div>
+
+            <footer/>
+        </div>
+
+        <script src="reveal.js/dist/reveal.js"></script>
+        <script src="reveal.js/plugin/notes/notes.js"></script>
+        <script src="reveal.js/plugin/search/search.js"></script>
+        <script src="reveal.js/plugin/markdown/markdown.js"></script>
+        <script src="reveal.js/plugin/highlight/highlight.js"></script>
+        <script>
+            Reveal.initialize({
+                hash: true,
+                pdfSeparateFragments: false,
+                plugins: [
+                    RevealMarkdown,
+                    RevealSearch,
+                    RevealNotes,
+                    RevealHighlight
+                ]
+            });
+            
+        </script>
+    </body>
+</html>
