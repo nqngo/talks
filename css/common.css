@@ -1,3 +1,26 @@
+header {
+  position: float;
+  top: 0;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 10%;
+  width: 100%;
+  opacity: 1;
+  transition: opacity 1s linear;
+}
+
+footer {
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  bottom: 0;
+  height: 10%;
+  width: 100%;
+  opacity: 1;
+  transition: opacity 1s linear;
+}
 
 .txt-align-l {
   text-align: left;
