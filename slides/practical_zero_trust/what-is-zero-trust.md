@@ -1,5 +1,5 @@
 
-<h3>A brief history of <em class="colors-yellow-400">buzzwords</em></h3>
+<h3>A brief history of <em class="color-yellow-400">buzzwords</em></h3>
 
 - _Early 90's_ - Antiviruses
 - _Late 90's_ - "Deep Package Inspection"
@@ -10,7 +10,7 @@
 
 ---
 
-<h3>Enter the <span class="colors-yellow-500">Vendors</span></h3>
+<h3>Enter the <span class="color-yellow-500">Vendors</span></h3>
 
 <div class="container">
     <div class="col">
@@ -46,7 +46,7 @@
 </div>
 ---
 
-<h3>So what is <span class="colors-yellow-400">Zero Trust?</span></h3>
+<h3>So what is <span class="color-yellow-400">Zero Trust?</span></h3>
 
 - Like _"Cloud"_ - depends on what you want to hear.
 - An (architectural) design mentality.
@@ -57,7 +57,7 @@
 
 ---
 
-<h3><span class="colors-yellow-400">Zero Trust</span> Principles</h3>
+<h3><span class="color-yellow-400">Zero Trust</span> Principles</h3>
 
 - Verify explicitly
 - Apply least privileged access
@@ -65,7 +65,7 @@
 
 ---
 
-<h3>What <span class="colors-yellow-400">Zero Trust</span> is not...</h3>
+<h3>What <span class="color-yellow-400">Zero Trust</span> is not...</h3>
 
 - "Next-generation" VPNs, firewalls, antiviruses,...
 - A one-off project

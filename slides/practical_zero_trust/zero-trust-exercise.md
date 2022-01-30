@@ -1,4 +1,4 @@
-<h3><span class="colors-yellow-400">Ops Session:</span> <span class="colors-yellow-500 background-1990"> business</span> scenario</h3>
+<h3><span class="color-yellow-400">Ops Session:</span> <span class="color-yellow-500 background-1990"> business</span> scenario</h3>
 
 - *LaserCo.* is a laser cutting business.
 - Produced a winning laser quoting app.
@@ -9,7 +9,7 @@
 
 ---
 
-<h3><span class="colors-yellow-400">Ops Session:</span> IT Components</h3>
+<h3><span class="color-yellow-400">Ops Session:</span> IT Components</h3>
 
 ```language-plantuml
 @startuml
@@ -83,7 +83,7 @@ WAN .r.. [WWW]
 
 ---
 
-<h3><span class="colors-yellow-400">Ops Session:</span> Staff Complaints</h3>
+<h3><span class="color-yellow-400">Ops Session:</span> Staff Complaints</h3>
 
 1. Can't print remotely.
 2. Too many passwords.

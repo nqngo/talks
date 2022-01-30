@@ -7,13 +7,13 @@
 
 ---
 
-<h3><span class="colors-yellow-400">Zero Trust</span> Security Layers</h3>
+<h3><span class="color-yellow-400">Zero Trust</span> Security Layers</h3>
 
 <img src="img/zero_trust_layers.jpg"></img>
 
 ---
 
-<h3><span class="colors-yellow-400">Identities</span> Layer</h3>
+<h3><span class="color-yellow-400">Identities</span> Layer</h3>
 
 Verifying that only the people and devices that have been granted access to your resources can access them.
 
@@ -25,7 +25,7 @@ Implement:
 
 ---
 
-<h3><span class="colors-yellow-400">Endpoints</span> Layer</h3>
+<h3><span class="color-yellow-400">Endpoints</span> Layer</h3>
 
 Asssessing the security compliance of device endpoints - the hardware accessing your data.
 
@@ -37,7 +37,7 @@ Implement:
 
 ---
 
-<h3><span class="colors-yellow-400">Applications</span> Layer</h3>
+<h3><span class="color-yellow-400">Applications</span> Layer</h3>
 
 Asssessing the security compliance of applications, both local and cloud.
 
@@ -48,7 +48,7 @@ Implement:
 
 ---
 
-<h3><span class="colors-yellow-400">Network</span> Layer</h3>
+<h3><span class="color-yellow-400">Network</span> Layer</h3>
 
 Protections at the network layer for access to resources, prevent lateral movement.
 
@@ -59,7 +59,7 @@ Implement:
 
 ---
 
-<h3><span class="colors-yellow-400">Infrastructure</span> Layer</h3>
+<h3><span class="color-yellow-400">Infrastructure</span> Layer</h3>
 
 Configure management and software updates sodeployed infrastructure meets your security and business requirements.
 
@@ -71,7 +71,7 @@ Implement:
 
 ---
 
-<h3><span class="colors-yellow-400">Data</span> Layer</h3>
+<h3><span class="color-yellow-400">Data</span> Layer</h3>
 
 Classify and protection of the data and secrets across your infrastructure.
 
