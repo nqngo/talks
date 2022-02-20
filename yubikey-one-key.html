@@ -20,7 +20,7 @@
 
             <div class="slides">
 
-                <section id="title-slide"
+                <section id="title"
                          data-state="title-slide"
                          data-background-image="img/yubico-splash.png"
                          data-background-position="right bottom"
@@ -29,17 +29,16 @@
                     <h3 class="title">ONE KEY TO RULE THEM ALL</h3>
                     <p>
                         <small>
-                            <span class="color-yellow-400">GPG</span> +
-                            <span class="color-yellow-400">SSH</span> +
-                            <span class="color-yellow-400">FIDO2</span> +
-                            <span class="color-yellow-400">MFA</span> +
-                            <span class="color-yellow-400">Zero Trust</span>
-                            with YubiKey
+                            Yubikey for
+                            <span class="color-yellow-400">Personal,</span>
+                            <span class="color-yellow-400"> Team</span> and
+                            <span class="color-yellow-400">Enterprise</span>
+                             Environment
                         </small>
                     </p>
                 </section>
 
-                <section id="whomami"
+                <section id="whoami"
                          data-markdown="slides/common/whoami.md">
                 </section>
                 <section id="introduction"
@@ -94,8 +93,15 @@
         <script src="reveal.js/plugin/highlight/highlight.js"></script>
         <script>
             Reveal.initialize({
+                hashOneBasedIndex: true,
                 hash: true,
                 pdfSeparateFragments: false,
+                plantuml: {
+                    serverPath: 'http://www.plantuml.com/plantuml/svg/'
+                },
+                dependencies: [
+                    { src: '//cdn.jsdelivr.net/npm/reveal-plantuml' },
+                ],
                 plugins: [
                     RevealMarkdown,
                     RevealSearch,

@@ -53,3 +53,7 @@ footer {
 .color-yellow-500 {
     color: #F59E0B;
 }
+
+small.tiny {
+  font-size: 1rem;
+}

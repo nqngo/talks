@@ -1,7 +1,7 @@
 <!--
 .slide: data-background-image="https://assets2.brandfolder.io/bf-boulder-prod/txcncmqrfr7bqph4kbhwc8/v/49024856/original/5CNFC-iphone-macbook2-1-scaled.jpg" data-background-opacity="0.4"
 -->
-<h3>What Is <em class="color-yubico-green">YubiKey?</em></h3>
+# What Is YubiKey?
 
 ---
 
@@ -33,7 +33,6 @@ Note:
 Unfortunately, YubiKey is the only current realistic option in the market at the moment that supports multiple interfaces, allowing us to ultilise one key for multiple functions covered.
 
 The Google Titan Key is rumoured to be manufactured by Feitian Inc.
-
 ---
 
 <!--
@@ -54,17 +53,20 @@ Note:
 4. Where you are example: *GPS data*, *location of your network*, *last sign-in location*.
 ---
 
-<h3>Why <em class="color-yubico-green">YubiKey?</em></h3>
+### Why <em class="color-yubico-green">YubiKey?</em>
 <img src="https://2.bp.blogspot.com/-2FvyOSlV3f8/XN4qy-LbWjI/AAAAAAAAAiY/m6skYaPJodMJgKv_gxtpvWZCwWulyLfxACLcBGAs/s1600/infographic%25402x.png" width="80%" />
 <small style="font-size: 1rem;">
-Data from <a href="https://security.googleblog.com/2019/05/new-research-how-effective-is-basic.html"><em>Google Security Blog: How effective is basic account hygiene at preventing hijacking (May 17, 2019)<em>
+Data from <a href="https://security.googleblog.com/2019/05/new-research-how-effective-is-basic.html"><em>Google Security Blog: How effective is basic account hygiene at preventing hijacking (May 17, 2019)<em></a>
 </small>
 
+Note:
+At the time of writing (early 2022), 2FA design still centered around preventing automated bot attack. Targeted attack has increasingly become a more [common threat in the industry](https://www.abc.net.au/everyday/protecting-yourself-from-phone-porting-and-sim-card-scams/100421586). In fact, recent draft from NIST recommend [deprecating SMS-based authentication entirely](https://threatpost.com/nist-recommends-sms-two-factor-authentication-deprecation).
 ---
 
-<h3>Why <em class="color-yubico-green">YubiKey?</em> (Cont.)</h3>
+### Why <em class="color-yubico-green">YubiKey?</em> (Cont.)
 
 - Multi-protocol.
+- Well-documented.
 - Supports multi-factors.
 - FIDO biometric supports with [YubiKey BIO](https://www.yubico.com/au/store/#yubikey-bio-series-fido-edition).
 - Made in USA.
@@ -75,3 +77,12 @@ Data from <a href="https://security.googleblog.com/2019/05/new-research-how-effe
 ### What MFA will not prevent
 
 ![](https://imgs.xkcd.com/comics/security.png)
+
+<small class="tiny">
+<em>Security</em> comic strip from <a href="https://xkcd.com/538/">xkcd.com</a>
+</small>
+Note:
+Yubikey and MFA is part of the _technical solutions_ to assist with securing your credentials. It is a not a tool design
+to provide anonymity or complete protection against local authority or state sponsored actors. Know your battle! The scope
+of today discussion will not touch the legislative and contractual barriers that preventing you from using Yubikey or similar
+devices in your workflow.
