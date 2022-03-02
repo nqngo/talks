@@ -1,7 +1,7 @@
 <!--
 .slide: data-background-image="https://assets2.brandfolder.io/bf-boulder-prod/txcncmqrfr7bqph4kbhwc8/v/49024856/original/5CNFC-iphone-macbook2-1-scaled.jpg" data-background-opacity="0.4"
 -->
-# What Is YubiKey?
+# What Is <span class="color-yubico-green">YubiKey?</span>
 
 ---
 
