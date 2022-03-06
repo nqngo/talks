@@ -35,6 +35,7 @@
 
 ### Use Case: <span class="color-yellow-400">Key Management</span>
 - [Signing your email with S/MIME certificate](https://andrewmatveychuk.com/signing-your-emails-in-outlook-with-an-s-mime-certificate-and-yubikey/).
+- [Signing your git commit with S/MIME certificate](https://enjoi.dev/posts/2021-09-30-signing-git-commits-using-s-mime-x509-certificates/).
 - Use [Slot 9e: Key Management](https://developers.yubico.com/PIV/Introduction/Certificate_slots.html).
 - PIN asked _once_.
 
