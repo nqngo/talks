@@ -44,3 +44,11 @@
 
 - Configuring Yubikey [__HOTP__](https://duo.com/docs/yubikey).
 - Configuring Yubikey for [__TOTP__ with *Yubico Authenticator*](https://support.yubico.com/hc/en-us/articles/360013789259-Using-Your-YubiKey-with-Authenticator-Codes).
+
+---
+
+### Issues
+
+- Cumbersome vs. using the phone.
+- Does not solve _Man-in-the-middle_ attack.
+- Limited amount of key slots available.

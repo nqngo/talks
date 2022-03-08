@@ -38,8 +38,8 @@
 ### <span class="color-yellow-500">U2F</span> Sign-In Example
 
 <div class="r-stack">
-    <img class="fragment" src="https://2.bp.blogspot.com/--q3Fde6j7rI/W-4P-CWsN4I/AAAAAAAAHZc/1zTeAhBWeDg7bDI-oTl_E9V9mb3hNKbcgCLcBGAs/s640/Sign%2Bin%2Bscreen%2Bnew.png">
-    <img class="fragment" src="https://i.pcmag.com/imagery/reviews/00dPzZkdHgKapBbjEIsWijy-4.fit_lim.size_725x827.v_1569469927.png">
+    <img class="fragment fade-out" data-fragment-index="0" src="https://2.bp.blogspot.com/--q3Fde6j7rI/W-4P-CWsN4I/AAAAAAAAHZc/1zTeAhBWeDg7bDI-oTl_E9V9mb3hNKbcgCLcBGAs/s640/Sign%2Bin%2Bscreen%2Bnew.png">
+    <img class="fragment current-visible" data-fragment-index="0" src="https://i.pcmag.com/imagery/reviews/00dPzZkdHgKapBbjEIsWijy-4.fit_lim.size_725x827.v_1569469927.png">
 </div>
 
 <small class="tiny">

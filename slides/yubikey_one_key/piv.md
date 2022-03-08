@@ -13,6 +13,7 @@
 - US federal government standard in 2004 to enhance physical, cyber security and cross-agency cooperation.
 - Reliant on _“cryptographic keys”_ in the form of X.509 digital certificates.
 - In practice, _<span class="color-yubico-green">Yubikey</span>_ is a smart card that can securely store _5-25_* X.509 certificates.
+- A PKI and AD are required to sign and match certificates against known user.
 
 ---
 
