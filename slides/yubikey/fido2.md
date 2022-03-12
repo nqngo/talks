@@ -18,29 +18,6 @@
 
 ---
 
-### Supported vendors <span class="color-yubico-blue">today</span>
-
-
-<div class="container">
-    <div class="col">
-        <ul>
-            <li><a href="https://www.okta.com/demos/passwordless-authentication-with-okta/">Okta</a></li>
-            <li><a href="https://www.cisco.com/c/en/us/products/security/threatwise-tv-demos/duo-passwordless-authentication.html">Duo</a></li>
-            <li><a href="https://docs.microsoft.com/en-us/azure/active-directory/authentication/concept-authentication-passwordless">Microsoft Azure</a></li>
-        </ul>
-    </div>
-    <div class="col" />
-</div>
-
----
-
-### <span class="color-yubico-blue">Microsoft Azure</span> Demo
-
-![](https://docs.microsoft.com/en-us/azure/active-directory/authentication/media/concept-authentication-passwordless/concept-web-sign-in-security-key.png)
-
-
----
-
 ### How does it work?
 
 ```language-plantuml
@@ -73,6 +50,29 @@ RP -> Auth: forward response
 note over Auth: verify assertation
 Auth -> RP: return verification result
 ```
+
+---
+
+### Supported vendors <span class="color-yubico-blue">today</span>
+
+
+<div class="container">
+    <div class="col">
+        <ul>
+            <li><a href="https://www.okta.com/demos/passwordless-authentication-with-okta/">Okta</a></li>
+            <li><a href="https://www.cisco.com/c/en/us/products/security/threatwise-tv-demos/duo-passwordless-authentication.html">Duo</a></li>
+            <li><a href="https://docs.microsoft.com/en-us/azure/active-directory/authentication/concept-authentication-passwordless">Microsoft Azure</a></li>
+        </ul>
+    </div>
+    <div class="col" />
+</div>
+
+---
+
+### <span class="color-yubico-blue">Microsoft Azure</span> Demo
+
+![](https://docs.microsoft.com/en-us/azure/active-directory/authentication/media/concept-authentication-passwordless/concept-web-sign-in-security-key.png)
+
 
 ---
 

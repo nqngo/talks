@@ -1,5 +1,3 @@
----
-
 <!--
 .slide: data-background-image="https://www.nist.gov/sites/default/files/images/2019/09/25/multifactor-authentificaton.png" data-background-opacity="0.2"
 -->

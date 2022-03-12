@@ -18,6 +18,13 @@
 
 ---
 
+### OTP Inherit Weakness
+
+- _Man-in-the-middle_ attack.
+- Possible to steal the *seed* and derive *moving factor*.
+
+---
+
 ### <span class="color-yubico-green">HOTP</span>
 - Stands for __HMAC-based One-time Password__.
 - __HMAC__: Hash-based Message Authentication Code.
