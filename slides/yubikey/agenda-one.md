@@ -30,8 +30,8 @@ In mid-Jul 2020, Twitter employeee crendentials get compromised [https://www.itn
 ### <span class="color-yellow-400">Agenda</span>
 
 - MFA: What? Why?
-- Introduce <span class="color-yubico-green">Yubikey</span> - a hardware security model.
-- OTP (One-time-password).
+- Introduce <span class="color-yubico-green">Yubikey</span> - a hardware security key.
+- OTP (One-time-password), how <span class="color-yubico-green">Yubikey</span> fits?
 - U2F.
 - FIDO2.
 - Outlook in Enterprise usage.
