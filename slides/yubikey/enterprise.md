@@ -9,13 +9,6 @@
 
 ---
 
-- Gaining traction as [Zero Trust security model](https://www.okta.com/au/resources/whitepaper-the-state-of-zero-trust-security-2021-report/) is increasing being adopted and the pandemics.
-- User self-enrolment reduces IT burden on IT staffs.
-- Acceptable trade-off to use Yubikey as main authentication method and TOTP mobile for backup.
-- Identity framework such as Okta or Duo helps simplifies MFA authentication implementation.
-
----
-
 ### Summary
 
 Two ways <span class="color-yubico-green">Yubikeys</span> are deployed:
