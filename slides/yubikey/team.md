@@ -19,6 +19,73 @@
 
 ---
 
+```language-plantuml
+@startuml
+!theme crt-amber
+skinparam roundCorner 15
+skinparam backgroundColor transparent
+skinparam componentStyle rectangle
+
+actor DevOps
+actor NewOps
+cloud CodeRepository
+artifact Config
+database PasswordManager
+cloud ChatPlatform
+cloud Production
+cloud Test
+
+DevOps <-[dashed]-> ChatPlatform: SaaS
+NewOps <-[dashed]-> ChatPlatform: SaaS
+DevOps <-[dashed]-> PasswordManager: SaaS
+PasswordManager -[dashed]-> NewOps: share
+
+DevOps ---> CodeRepository : push
+DevOps -[dashed]-> CodeRepository : manage ENV
+CodeRepository -[dashed]-> Config : store
+DevOps -[dashed]-> Test : manage ENV
+DevOps -[dashed]-> Production : manage ENV
+Config -[dashed]-> Test: test
+Config -[dashed]-> Production : apply 
+```
+
+Note:
+This diagram presents an example workflow for a typical team.
+---
+```language-plantuml
+@startuml
+!theme crt-amber
+skinparam roundCorner 15
+skinparam backgroundColor transparent
+skinparam componentStyle rectangle
+
+folder DevOps {
+    actor Person
+    interface PGP
+}
+
+cloud CodeRepository
+artifact Config
+artifact Secrets
+cloud ChatPlatform
+cloud Production
+cloud Test
+
+Person <-[dashed]r--> ChatPlatform: SaaS
+PGP <-> Person
+
+DevOps -d-> CodeRepository : push
+CodeRepository -[dashed]r-> Config : store
+CodeRepository -[dashed]r-> Secrets : store
+Config -[dashed]-> Test
+Config -[dashed]-> Production 
+Secrets -[dashed]-> Test
+Secrets -[dashed]-> Production
+```
+Note:
+This diagram presents an ideal workflow to PGP key.
+---
+
 ### Experience Point
 
 - Ordering directly from [Yubico](https://www.yubico.com/au/store/) to avoid supply chain attack.
