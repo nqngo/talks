@@ -25,7 +25,7 @@ Two ways <span class="color-yubico-green">Yubikeys</span> are deployed:
 - Requires mini-drivers on the OS*\** to function properly.
 - Yubikeys is significantly more expensive than a PIV card.
 - Limited adoptation outside US federal government.
-- [2021 US National Cybersecurity Excecutive Order](https://www.entrust.com/blog/2021/06/us-cybersecurity-executive-order-and-derived-piv-credential-issuance-with-yubikeys/) sees a revival on PIV usage.
+- [2021 US National Cybersecurity Executive Order](https://www.entrust.com/blog/2021/06/us-cybersecurity-executive-order-and-derived-piv-credential-issuance-with-yubikeys/) sees a revival on PIV usage.
 
 ---
 
