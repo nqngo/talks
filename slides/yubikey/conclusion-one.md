@@ -25,7 +25,7 @@
                 <div>Downloaded this talk from:</div>
                 <div>
                     <small class="tiny">
-                        <a href="https://pt.behindtheclouds.dev/yubikey-one.html?print-pdf&showNotes=separate-page">https://pt.behindtheclouds.dev/yubikey-one.html?print-pdf&showNotes=separate-page</a>
+                        <a href="https://pt.behindtheclouds.dev/2022-yubikey-one.html?print-pdf&showNotes=separate-page">https://pt.behindtheclouds.dev/yubikey-one.html?print-pdf&showNotes=separate-page</a>
                     </small>
                 </div>
             </li>

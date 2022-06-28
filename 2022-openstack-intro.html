@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <title>One Key To Rule Them All</title>
+
+        <link rel="stylesheet" href="reveal.js/dist/reset.css">
+        <link rel="stylesheet" href="reveal.js/dist/reveal.css">
+        <link rel="stylesheet" href="reveal.js/dist/theme/night.css">
+        <link rel="stylesheet" href="reveal.js/plugin/highlight/monokai.css">
+        <link rel="stylesheet" href="css/common.css">
+        <link rel="stylesheet" href="css/openstack.css">
+    </head>
+    <body>
+        <div class="reveal">
+
+            <header/>
+
+            <div class="slides">
+
+                <section id="title"
+                         data-state="title-slide"
+                         data-background-image="https://images.unsplash.com/photo-1515890922410-ae767899d6b3"
+                         data-background-size="100%"
+                         data-background-opacity="0.2">
+                    <img src="https://object-storage-ca-ymq-1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-images-prod/openstack-logo/2016R/OpenStack-Logo-Mark.svg" alt="OpenStack Logo" width="10%"/>
+                    <h3 class="title">Introduction to <span class="color-openstack-red">OpenStack</span></h3>
+                    <p>and cloud computing</p>
+                </section>
+                <section id="intro"
+                         data-markdown="slides/openstack/intro.md"
+                         data-separator-vertical="^---"
+                         data-separator="^------">
+                </section>
+                <section id="whoami"
+                         data-markdown="slides/common/whoami.md">
+                </section>
+                <section id="high-level"
+                         data-markdown="slides/openstack/high-level.md"
+                         data-separator-vertical="^---"
+                         data-separator="^------">
+                </section>
+                <section id="horizon"
+                         data-markdown="slides/openstack/horizon.md"
+                         data-background-image="https://images.unsplash.com/photo-1597386601945-8980df52c3dc"
+                         data-background-opacity="0.1"
+                         data-separator-vertical="^---"
+                         data-separator="^------">
+                </section>
+                <section id="keystone"
+                         data-markdown="slides/openstack/keystone.md"
+                         data-background-image="https://images.unsplash.com/photo-1634322259580-4441b0dd5f81"
+                         data-background-opacity="0.1"
+                         data-separator-vertical="^---"
+                         data-separator="^------">
+                </section>
+                <section id="nova"
+                         data-markdown="slides/openstack/nova.md"
+                         data-background-image="https://images.unsplash.com/photo-1558494949-ef010cbdcc31"
+                         data-background-opacity="0.3"
+                         data-separator-vertical="^---"
+                         data-separator="^------">
+                </section>
+                <section id="glance"
+                         data-markdown="slides/openstack/glance.md"
+                         data-separator-vertical="^---"
+                         data-separator="^------">
+                </section>
+                <section id="cinder"
+                         data-markdown="slides/openstack/cinder.md"
+                         data-separator-vertical="^---"
+                         data-separator="^------">
+                </section>
+                <section id="neutron"
+                         data-markdown="slides/openstack/neutron.md"
+                         data-separator-vertical="^---"
+                         data-separator="^------">
+                </section>
+                <section id="swift"
+                         data-markdown="slides/openstack/swift.md"
+                         data-separator-vertical="^---"
+                         data-separator="^------">
+                </section>
+                <section id="conclusion"
+                         data-markdown="slides/openstack/conclusion.md"
+                         data-separator-vertical="^---"
+                         data-separator="^------">
+                </section>
+            </div>
+
+            <footer/>
+        </div>
+
+        <script src="reveal.js/dist/reveal.js"></script>
+        <script src="reveal.js/plugin/notes/notes.js"></script>
+        <script src="reveal.js/plugin/search/search.js"></script>
+        <script src="reveal.js/plugin/markdown/markdown.js"></script>
+        <script src="reveal.js/plugin/highlight/highlight.js"></script>
+        <script>
+            Reveal.initialize({
+                hashOneBasedIndex: true,
+                hash: true,
+                pdfSeparateFragments: false,
+                plantuml: {
+                    serverPath: 'http://www.plantuml.com/plantuml/svg/'
+                },
+                dependencies: [
+                    { src: '//cdn.jsdelivr.net/npm/reveal-plantuml' },
+                ],
+                plugins: [
+                    RevealMarkdown,
+                    RevealSearch,
+                    RevealNotes,
+                    RevealHighlight
+                ]
+            });
+            
+        </script>
+    </body>
+</html>
