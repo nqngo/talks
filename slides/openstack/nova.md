@@ -1,6 +1,6 @@
 ### <span class="color-openstack-red">OpenStack</span> Computing Service
 
-![](https://www.linuxtechi.com/wp-content/uploads/2016/01/Instances-Details-OpenStack-Dashboard-1024x540.jpg)
+![](https://openstack-xenserver.readthedocs.io/en/latest/_images/page25-launch-instance.png)
 
 ---
 
@@ -10,7 +10,7 @@
 2. The instance <span class="color-yellow-400">name</span>.
 3. The <span class="color-yellow-400">Flavor</span>.
 4. <span class="color-yellow-400">Boot Source</span>.
-5. A <span class="color-yellow-400">Key Pair</span>.
+5. A <span class="color-yellow-400">Keypair</span>.
 6. <span class="color-yellow-400">Security Group</span>.
 7. <span class="color-yellow-400">Networking</span>.
 
@@ -37,3 +37,77 @@
 
 ---
 
+### <span class="color-yellow-400">Boot Source</span>
+
+- Boot from an <span class="color-yellow-400">_image_</span>: <span class="color-yellow-400">**Glance**</span>
+- Boot instance from <span class="color-yellow-400">_volume_</span>: <span class="color-yellow-400">**Cinder**</span>
+- Boot from an existing <span class="color-yellow-400">_snapshot_</span>.
+
+---
+
+### <span class="color-yellow-400">Keypair</span>
+
+A **_ssh_** key that can be injected into a server **on launch**.
+- Can be generated on the <span class="color-yellow-400">dashboard</span>.
+- Or imported from your existing **SSH keys**.
+- Imported keypair can have multiple public keys:
+```
+ssh-rsa AAAAB3NzaC1... user1@example.com
+ssh-rsa AAAAB3NzaC1... user2@example.com
+ssh-rsa AAAAB3NzaC1... user3@example.com
+```
+
+---
+
+### <span class="color-yellow-400">Security Group</span>
+
+_Named collection_ of simple network access rules to limit the types of traffic that access the <span class="color-yellow-400">_instances_</span>.
+- Limit by _source of traffic_.
+- Limit by _protocol_.
+- Limit by _destination port_.
+
+---
+
+### <span class="color-yellow-400">Networking</span>
+
+- Managed by <span class="color-yellow-400">_Neutron_</span>.
+- Most cloud providers have a default network that NAT to the internet.
+- Depends on implementation, private network can spanned multiple AZ.
+
+---
+
+### Back to our <span class="color-yellow-400">Example Scenario</span>
+
+---
+
+### <span class="color-yellow-400">Snapshot</span>
+
+A mechanism that allows you to create a new _image_ from a _running instance_. Use Case:
+1. As a backup mechanism.
+2. As a templating mechanism.
+
+_Live snapshot_ may be <span class="color-yellow-400">inconsistent</span>.
+
+Most Openstack Nova deployment relies on QEMU to manage the VMs. **_qemu_guest_agent_** can be enforced consistency in _live snapshot_.
+
+---
+
+### <span class="color-yellow-400">Snapshot (Cont.)</span>
+
+However, the instance or base image must be tagged with the property:
+```
+hw_qemu_guest_agent=yes
+```
+<img src="https://blog.ovhcloud.com/wp-content/uploads/2020/02/1AFD8AED-20D0-4ECE-8894-3EEA72649D0D.jpeg" width="50%">
+<small>Source: [ovhcloud blog](https://blog.ovhcloud.com/create-and-use-openstack-snapshots/)</small>
+
+---
+
+### <span class="color-yellow-400">Migration</span>
+
+An instance can be moved between compute hosts. Nova has multiple mechanisms:
+
+1. _Live migration_: VM continues to run. Might fail if hosts have different configuration or versions.
+2. _Cold migration_: VM shutoffs and relaunches on a new host. No change in flavor.
+3. _Resize_: VM shutoffs and relaunches on a new host. Flavor will be changed.
+4. _Rebuild_: VM shutoffs and relaunches on the same host. No change in flavor.
