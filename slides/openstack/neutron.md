@@ -5,9 +5,9 @@
 - [Neutron](https://docs.openstack.org/neutron/latest/) is the service providing virtual networking.
 - Allow the VMs to communicate with each other and external network.
 - Apply security group on the virtual attached ports.
-- (Optional)Load Balancer as a Service (LBaaS).
-- (Optional)Firewall as a Service (FWaaS).
-- (Optional)VPN as a Service (VPNaaS).
+- (Optional) Load Balancer as a Service (LBaaS).
+- (Optional) Firewall as a Service (FWaaS).
+- (Optional) [VPN as a Service](https://docs.openstack.org/neutron-vpnaas/latest) (VPNaaS).
 
 ---
 
