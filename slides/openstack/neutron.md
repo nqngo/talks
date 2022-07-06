@@ -1,5 +1,7 @@
 ### <span class="color-openstack-red">OpenStack</span> Networking Service
 
+![](https://techcrunch.com/wp-content/uploads/2016/10/networktopology.jpg)
+
 ---
 
 - [Neutron](https://docs.openstack.org/neutron/latest/) is the service providing virtual networking.
