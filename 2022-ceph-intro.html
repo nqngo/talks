@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <title>Introduction to Ceph</title>
+
+        <link rel="stylesheet" href="reveal.js/dist/reset.css">
+        <link rel="stylesheet" href="reveal.js/dist/reveal.css">
+        <link rel="stylesheet" href="reveal.js/dist/theme/night.css">
+        <link rel="stylesheet" href="reveal.js/plugin/highlight/monokai.css">
+        <link rel="stylesheet" href="css/common.css">
+        <link rel="stylesheet" href="css/openstack.css">
+    </head>
+    <body>
+        <div class="reveal">
+
+            <header/>
+
+            <div class="slides">
+
+                <section id="title"
+                         data-state="title-slide"
+                         data-background-image="https://images.unsplash.com/photo-1515890922410-ae767899d6b3"
+                         data-background-size="100%"
+                         data-background-opacity="0.8">
+                    <img src="https://openmetal.io/wp-content/uploads/2021/11/open-stack-project-swift-vertical.webp" alt="OpenStack Swift Logo" width="25%"/>
+                    <h3 class="title"><span class="color-openstack-red">Ceph</span> 101</h3>
+                    <p>Introduction</p>
+                </section>
+                <section id="intro"
+                         data-markdown="slides/ceph/intro.md"
+                         data-separator-vertical="^---"
+                         data-separator="^------">
+                </section>
+                <section id="whoami"
+                         data-markdown="slides/common/whoami.md">
+                </section>
+                <section id="storage"
+                         data-markdown="slides/common/storage.md"
+                         data-separator-vertical="^---"
+                         data-separator="^------">
+                </section>
+                <section id="architure"
+                         data-markdown="slides/ceph/architecture.md"
+                         data-separator-vertical="^---"
+                         data-separator="^------">
+                </section>
+                <section id="concepts"
+                         data-markdown="slides/ceph/concepts.md"
+                         data-separator-vertical="^---"
+                         data-separator="^------">
+                </section>
+                <section id="conclusion"
+                         data-markdown="slides/ceph/conclusion.md"
+                         data-separator-vertical="^---"
+                         data-separator="^------">
+                </section>
+            </div>
+
+            <footer/>
+        </div>
+
+        <script src="reveal.js/dist/reveal.js"></script>
+        <script src="reveal.js/plugin/notes/notes.js"></script>
+        <script src="reveal.js/plugin/search/search.js"></script>
+        <script src="reveal.js/plugin/markdown/markdown.js"></script>
+        <script src="reveal.js/plugin/highlight/highlight.js"></script>
+        <script>
+            Reveal.initialize({
+                hashOneBasedIndex: true,
+                hash: true,
+                pdfSeparateFragments: false,
+                plantuml: {
+                    serverPath: 'http://www.plantuml.com/plantuml/svg/'
+                },
+                dependencies: [
+                    { src: '//cdn.jsdelivr.net/npm/reveal-plantuml' },
+                ],
+                plugins: [
+                    RevealMarkdown,
+                    RevealSearch,
+                    RevealNotes,
+                    RevealHighlight
+                ]
+            });
+            
+        </script>
+    </body>
+</html>
