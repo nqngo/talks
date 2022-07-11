@@ -46,7 +46,7 @@ skinparam componentStyle rectangle
 - Simple to configure.
 - Good performance over LAN.
 - Support _file sharing_, _global file locking_.
-- Network inteface: _NFS_, _SMB_, _NTFS_, _CephFS_.
+- Network interface: _NFS_, _SMB_, _NTFS_, _CephFS_.
 
 ---
 

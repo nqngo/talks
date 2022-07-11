@@ -8,3 +8,33 @@ For <span class="color-openstack-red">Swift</span> introduction from user's pers
 
 ---
 
+### <span class="color-yellow-400">Object Storage</span>
+
+- Scalability.
+- Pay as you go.
+- Mix and match commodity hardware.
+- Object immutability.
+- Works well with high latency network (over WAN).
+
+---
+
+### <span class="color-yellow-400">Eventually Consistent</span>
+
+- Suppose a container server is under load and a new object is put in to the system.
+- Object will be available for reads as soon as the proxy server responds  with success.
+- However, the container server did not update the object listing.
+- Container listings, therefore, may not immediately contain the object.
+
+---
+
+### <span class="color-yellow-400">Distributed</span>
+
+- Swift cluster can span multiple <span class="color-yellow-500">Regions</span>.
+- A <span class="color-yellow-500">Region</span> can have multiple <span class="color-yellow-500">Zones</span>.
+
+---
+
+### <span class="color-yellow-400">Highly Available</span>
+
+- Multiple proxy servers can be deployed and requests are load-balanced between them.
+- Each proxy server instance is stateless and able to respond to requests for the entire cluster.
