@@ -60,3 +60,8 @@
 
 ### <span class="color-yellow-400">Erasure Coding Pool</span>
 
+- Data split into _k_ parts plus _m_ redundancy codes
+- Better space efficiency
+- Higher CPU overhead
+- Significant CPU & cluster network impact, especially during rebuild
+- Cannot directly be used with block devices

@@ -4,7 +4,7 @@ Data can be organised and presented in different storage formats: each with thei
 
 1. _File storage_.
 2. _Block storage_.
-3. <span class="color-yellow-500">_Object storage_</span>.
+3. _Object storage_.
 
 ---
 
@@ -62,13 +62,16 @@ skinparam backgroundColor transparent
 skinparam componentStyle rectangle
 
 agent System
-database "Volume" as Vol1
-database "Volume" as Vol2
-database "Volume" as Vol3
+database "Block" as Vol1
+database "Block" as Vol2
+database "Block" as Vol3
+interface Volume as LUN
 
-Vol3 . System
-System - Vol1
-System - Vol2
+Vol1 - Vol2
+Vol2 - Vol3
+Vol1 -- Vol3
+System . LUN
+LUN . Vol1
 
 @enduml
 ```
@@ -86,3 +89,38 @@ System - Vol2
 - Best of structured data.
 - Network interface: _direct attached_, _iSCI_, _RBD_, _Cinder_.
 
+---
+
+### <span class="color-yellow-500">Object Storage</storage>
+
+- Flat structure in which files are broken into pieces and spread out among hardware.
+
+```language-plantuml
+@startmindmap
+!theme crt-amber
+skinparam roundCorner 15
+skinparam backgroundColor transparent
+skinparam componentStyle rectangle
+
+*_ text.txt
+** text_obj
+*_ picnic.mp4
+** picnic_obj
+*_ rick_astley.mp3
+** rick_obj
+@endmindmap
+```
+
+- Data is broken into discrete units called objects and is kept in a single repository, instead of files in folders or as blocks on servers.
+
+---
+
+### <span class="color-yellow-500">Object Storage (Cont.)</storage>
+
+- Cost efficient.
+- Pay for what you use.
+- Scale easily.
+- Fast read.
+- Slow write, objects can’t be modified, have to write the object completely at once.
+- Have to write app to use the object storage API.
+- Network interface: _AWS S3_, _Swift_.
