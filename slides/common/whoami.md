@@ -7,8 +7,9 @@
         linkedin.com/in/nqngo
         github.com/nqngo
         $ groups
-        sysadmin devops sre cloud_ops cybersec
+        sysadmin devops sre cloud_ops cybersec digital_engineering
         $ sudo -l
+           (ALL: ALL) Wipro Shelde
            (ALL: ALL) Vault Clouds
            (ALL: ALL) University of Melbourne
     </code>
