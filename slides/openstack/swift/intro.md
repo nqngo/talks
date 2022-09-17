@@ -4,7 +4,7 @@
 
 For <span class="color-openstack-red">Swift</span> introduction from user's perspective, refer the to accompanied talk:
 
-[Introduction to Openstack (2022)](https://pt.behindtheclouds.dev/2022-openstack-intro)
+[Introduction to Openstack (2022)](https://talks.nhat.ngo.cx/2022-openstack-intro)
 
 ---
 

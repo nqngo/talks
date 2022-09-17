@@ -14,7 +14,7 @@
 - [Web of trust](https://en.wikipedia.org/wiki/Web_of_trust) system vs. centralised model in PKI.
 - Use for encryption, decryption, signing and authentication.
 - No centralised infrastructure to setup.
-- [How to setup your Yubikey OpenPGP mode](https://github.com/behindtheclouds/presentations/wiki/Setup-Yubikey-OpenPGP).
+- [How to setup your Yubikey OpenPGP mode](https://github.com/nqngo/talks/wiki/Setup-Yubikey-OpenPGP).
 - PGP (Commercial) vs. GPG (Open source).
 
 ---

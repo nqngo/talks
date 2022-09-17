@@ -89,7 +89,7 @@ This diagram presents an ideal workflow to PGP key.
 ### Experience Point
 
 - Ordering directly from [Yubico](https://www.yubico.com/au/store/) to avoid supply chain attack.
-- Security specialist [create the OpenPGP keys](https://github.com/behindtheclouds/presentations/wiki/Setup-Yubikey-OpenPGP) to avoid backup private key.
+- Security specialist [create the OpenPGP keys](https://github.com/nqngo/talks/wiki/Setup-Yubikey-OpenPGP) to avoid backup private key.
 - Key expiry are staggered so that all keys do not expire at the same day and lock everyone out.
 - DevOps finalise the setup on their own workstation.
 - 2 keys each for backup.
