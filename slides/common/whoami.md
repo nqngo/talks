@@ -2,7 +2,7 @@
 <h1><code>whoami</code></h1>
 
 <pre>
-    <code class="language-bash" data-line-numbers="2-4|6|8-10" data-trim>
+    <code class="language-bash" data-line-numbers="2-4|6|8-11" data-trim>
         $ whoami
         linkedin.com/in/nqngo
         github.com/nqngo

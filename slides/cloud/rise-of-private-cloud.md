@@ -1,3 +1,7 @@
+<!--
+.slide: data-background-image="https://cdn.pixabay.com/photo/2016/04/20/08/21/entrepreneur-1340649_960_720.jpg" data-background-opacity="0.15"
+-->
+
 ## The Rise of Private Cloud
 
 ---
@@ -59,6 +63,9 @@ Note:
 Link: https://www.businessinsider.com/amazon-aws-halting-new-customers-in-russia-belarus-2022-3
 
 ---
+<!--
+.slide: data-background-image="https://cdn.pixabay.com/photo/2015/11/27/20/28/arno-river-1066307_960_720.jpg" data-background-opacity="0.2"
+-->
 
 ## Bridging the Gap
 

@@ -1,10 +1,13 @@
+<!--
+.slide: data-background-image="https://cdn.discordapp.com/attachments/1014731784291893308/1109466562164961393/weisswolf_2_panels_one_with_a_cityscape_with_tall_buildings_one_bc653f65-8a4c-41bd-88bf-7b4e601deb79.png" data-background-opacity="0.3"
+-->
 ## Private vs. Public Cloud
 
 ---
 
 ### Market segments
 
-![](https://resources.flexera.com/web/eloqua/images/charts/sotc/2023/full/figure-14-full.png) <!-- .element height="50%" width="50%" -->
+![](https://resources.flexera.com/web/eloqua/images/charts/sotc/2023/full/figure-14-full.png) <!-- .element width="50%" -->
 <small>Source: [_Flexera 2023 State of the Cloud Report_](https://info.flexera.com/CM-REPORT-State-of-the-Cloud)<small>
 
 Note:
