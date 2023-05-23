@@ -4,7 +4,7 @@
     <div class="col">
         <ul>
             <li>
-                <div>Downloaded this talk from:</div>
+                <div>Download this talk from:</div>
                 <div>
                     <small class="tiny">
                         <a href="https://talks.nhat.ngo.cx/2023-private-cloud?print-pdf&showNotes=separate-page">https://talks.nhat.ngo.cx/2023-private-cloud?print-pdf&showNotes=separate-page</a>
