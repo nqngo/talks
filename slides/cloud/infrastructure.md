@@ -21,7 +21,7 @@ The cloud can be viewed as a management layer that sits atop traditional data ce
 
 ![](https://cdn.thenewstack.io/media/2020/06/d9fdb83e-brianimage2.jpg)
 
-<small>When you are running a private cloud, you are running a data center.</small>
+<small>When you are running a private cloud, you are providing resources abstraction for your users.</small>
 
 ---
 

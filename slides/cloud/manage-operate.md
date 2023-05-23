@@ -5,23 +5,48 @@
 ## Manage & Operate a Private Cloud
 
 ---
-## Management Options
 
-- Infrastructure as Code (IaC)?
-- Telemetry and Continuous load testing?
-- Service Automation?
-- Alert Monitoring?
+## User Experience
+
+- Self-service or managed service?
+- Can each user maintain their own OpEx?
+- Is there support for automation?
+- Is there budget for help desk and training?
+- Is there a service catalog?
 
 Note:
-- *Infrastructure as Code (IaC)*: When operating at scale automation of infrastructure management tasks, such as provisioning, configuration, and deployment are essential. With IaC, your infrastructure becomes reproducible and version-controlled, just like your application code. Tools such as Terraform, Ansible, and Chef can be used to implement IaC, allowing for rapid, consistent, and repeatable creation and teardown of environments. Avoid manual configuration of infrastructure, as this can lead to inconsistencies and errors.
-- *Telelmetry and Continuous load testing*: When operating at scale, it is essential to have a good understanding of the health and performance of your infrastructure. This can be achieved through the use of telemetry and continuous monitoring. Telemetry is the collection of data from your infrastructure, such as CPU and memory usage, network traffic, and application logs. Continuous monitoring is the analysis of this data to identify trends and potential issues. Tools such as Prometheus and Grafana can be used to implement telemetry and continuous monitoring.
+- *Self-service or managed service?:* Understand the choice between providing users with self-service capabilities to manage their own resources or the IT team handles resource provisioning and management on behalf of users. Self-serviceing increases agility and user empowerment, while managed services ensures consistent configurations and centralised control.
+- *Individual OpEx Management:* Provides transparency and control over resource usage enables users to optimise costs and align their consumption with their specific needs and budget. Ensures the responsibility of cost management falls to the users instead of the IT team.
+- *Support for Automation:* Enables users to automate repetitive tasks, resource provisioning, and application deployment. Helps the IT team to focus on more strategic tasks instead of chasing down the runsheet for the next deployment.
+- *Budget for Help Desk and Training:* Self-service capabilities require users to be trained on how to use the cloud platform. This can be achieved through training courses, documentation, and help desk support.
+- *Service Catalog:* A service catalog enables users to easily discover and request the resources they need, improving user experience and ensuring consistent delivery of services.
 
 ---
-## Scaling Options
+## Infrastructure Management
 
-- Scaling?
-- Aggregation?
-
+- Infrastructure as Code (IaC)?
+- Service Automation?
+- Out-of-band management?
+- Incident response playbook?
 
 Note:
-- *Horizontal scaling*: 
+- *Infrastructure as Code (IaC):* IaC enables automation, version control, and consistency in infrastructure deployment and configuration changes.In a large scale deployment, it enables faster provisioning, reduced manual errors, and the ability to reproduce environments reliably.
+- *Service Automation:*  It is important to automate routine tasks, such as tenant provisioning, application deployment, and live migration.
+- *Out-of-band management:* out-of-band management enables administrators to diagnose and troubleshoot issues even when the primary network is inaccessible. Ensures KVM-over-IP, IPMI, or console servers are available.
+- *Incident response playbook:* a well-prepared incident response playbook helps minimise downtime, reduces the impact of incidents, and enhances overall security posture.
+
+
+---
+## Security and Telemetry
+
+- Telemetry and Continuous load testing?
+- Security and compliance?
+- Capacity planning?
+- Active security monitoring?
+
+Note:
+- *Telelmetry:* telemetry allows us to gather real-time data and performance metrics about the infrastructure. It helps in proactive monitoring, identifying performance bottlenecks, and optimising resource utilisation.Tools such as Prometheus, Grafana, OpenSearch can be used to implement telemetry.
+- *Continuous load testing:* simulate various workload scenarios and ensure the private cloud can handle the expected demand. For example, an hourly test that provisions a new tenant, deploys a new application, and runs a load test then tears down the tenant.
+- *Security and compliance:* security measures such as firewalls, encryption, access controls, and identity management to protect data and infrastructure.
+- *Capacity planning:* analysing historical usage patterns, forecasting growth, and allocating resources to ensure that the private cloud infrastructure can meet current and future demands.
+- *Active security monitoring:* use of intrusion detection systems (IDS), security incident and event management (SIEM) tools, and log analysis to proactively monitor for suspicious activities.

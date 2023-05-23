@@ -10,17 +10,15 @@
 
 - Compliance
 - Cost
-- Performance
-- Scalability
-- Security
+- Capabilities
 
 Note:
 
-- *Compliance:* Do you need to comply with any compliance requirements? Vendors such as VMware and Red Hat have certifications for various compliance requirements.
-- *Cost:* How much are you willing to spend? What is the total cost of ownership (TCO) of the infrastructure? What is the return on investment (ROI)?
-- *Performance:* What is the expected performance of the infrastructure? What is the expected performance of the applications running on the infrastructure?
-- *Scalability:* How much can the infrastructure scale? How quickly can the infrastructure scale? How much does it cost to scale the infrastructure?
-- *Security:* How secure is the infrastructure? How secure is the data? How secure are the applications running on the infrastructure? Do you need to operate in an air-gapped environment?
+The decision to build a private cloud is driven by 3 main factors:
+
+- *Compliance:* Do you need to comply with any compliance requirements? Vendors such as VMware and Red Hat have certifications for various compliance requirements. Is your data subject to any data sovereignty requirements? Do you need to comply with any data residency requirements?
+- *Cost:* How much are you willing to spend? What is the total cost of ownership (TCO) of the infrastructure? What is the return on investment (ROI)? What is the software licensing model? Is your company operating on a capital expenditure (CapEx) or operating expenditure (OpEx) model?
+- *Capabilities:* What capabilities do you need? What capabilities do you want? What capabilities do you not need? What capabilities do you not want?
 
 ---
 

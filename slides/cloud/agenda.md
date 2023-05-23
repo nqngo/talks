@@ -6,4 +6,4 @@
 4. Designing & Deploying a Private Cloud
 5. Managing & Operating a Private Cloud
 6. Case Studies
-7. Hands-on Demonstration
+7. Hybrid Cloud
