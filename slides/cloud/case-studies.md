@@ -2,7 +2,7 @@
 .slide: data-background-image="https://external-preview.redd.it/u_-suSzOk6vEL1ycsRTYXbbMmW-UtHwyLuhCdmgjEpw.jpg?auto=webp&s=1d34292ebbad99d5152ceaeed8041271904c9fe6" data-background-opacity="0.2"
 -->
 
-## Case Studies 1
+## Case Studies
 
 ![](https://home.cern/sites/default/files/logo/cern-logo.png)
 ### OpenStack at CERN
@@ -54,58 +54,3 @@ CERN Data Centre stores more than 30 petabytes of data per year from the LHC exp
 
 - [CERN OpenStack Cloud](https://clouddocs.web.cern.ch/)
 - [CERN Cloud Blog](https://techblog.web.cern.ch/techblog/)
-
----
-
-<!--
-.slide: data-background-image="https://www.filepicker.io/api/file/hCX99LXRRmeR7WD8D1cT" data-background-opacity="0.6"
--->
-
-## Case Studies 2
-
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-
-
-### Kubernetes at Squarespace
-
----
-
-### Introduction to Squarespace
-
-- Squarespace is a website building and hosting company.
-- It provides software as a service (SaaS) for website building and hosting.
-- It has over 2 million paying customers and 1,200 employees.
-
----
-
-### Challenges Faced by Squarespace
-
-- Squarespace's infrastructure was built on a monolithic architecture.
-- "The infrastructure deployment process on our 5,000 VM hosts was slowing everyone down."
-- "When we're deploying VMs, we have to build tooling to ensure that a service is spread across racks appropriately and can withstand failure,"
-
----
-
-### Kubernetes at Squarespace
-
-- Squarespace adopted Kubernetes to manage its infrastructure.
-- Before, their VM deployment would take half an hour; now, a templated application can be generated and deployed in five minutes.
-- “If a node goes down, it’s rescheduled immediately and there’s no performance impact.”
-
----
-
-![](https://image.slidesharecdn.com/kubernetessquarespacesreportlandmeetupoctober2017-171024205334/75/kubernetes-squarespace-sre-portland-meetup-october-2017-3-2048.jpg)
-
-<small>Source: [_Squarespace - Kubernetes @ Squarespace (SRE Portland Meetup October 2017)_](https://www.slideshare.net/KevinLynch26/kubernetes-squarespace-sre-portland-meetup-october-2017-81165445)<small>
----
-
-## More Info
-
-- [Squarespace Kubernetes Case Study](https://kubernetes.io/case-studies/squarespace/)
-- [Squarespace Engineering Blog](https://engineering.squarespace.com/)
-- [Kubernetes @ Squarespace](https://www.slideshare.net/KevinLynch26/kubernetes-squarespace-sre-portland-meetup-october-2017-81165445)

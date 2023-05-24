@@ -11,7 +11,7 @@
         sysadmin devops sre cloud_ops cybersec digital_engineering
         $ sudo -l
            (ALL: ALL) Wipro Shelde
-           (ALL: ALL) Vault Clouds
+           (ALL: ALL) Vault Cloud
            (ALL: ALL) University of Melbourne
     </code>
 </pre>

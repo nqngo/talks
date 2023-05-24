@@ -10,21 +10,6 @@ Cloud computing is the delivery of computing services over the internet ("the cl
 
 ---
 
-### Core Benefits
-
-- Cost-Efficiency
-- Scalability
-- Self-service and Agility
-- Automation and Efficiency
-
-Note:
-
-- *Cost-Efficiency:* Significant cost savings on infrastructure, maintenance, and operations.
-- *Scalability:* One of the key benefits of cloud is the ability for developers to provision their own resources, accelerating development cycles.
-- *Self-service and Agility:* Enabling developers to make decisions about the resources they use.
-- *Automation and Efficiency:* In the cloud, provisioning of infrastructure such as servers, storage, and networking can be fully automated. This means that users can request and receive access to resources on-demand, without the need for manual intervention by IT staff.
----
-
 <!--
 .slide: data-background-image="https://cdn.pixabay.com/photo/2018/04/21/02/11/iot-3337536_960_720.png" data-background-opacity="0.1"
 -->
@@ -35,7 +20,6 @@ Note:
 
 ### Software as a Service (SaaS)
 
-- Enables users to access applications hosted on a cloud infrastructure.
 - Users can use web browsers or program interfaces to access these applications.
 - Users are not responsible for managing the underlying cloud infrastructure.
 
@@ -74,7 +58,7 @@ Heroku, Vercel, Cloud Foundry.
 
 - Consumer can provision processing, storage, and networking resources.
 - They can deploy and run arbitrary software, including operating systems and applications.
-- Consumer has control over operating systems, storage, deployed applications, and limited control over select networking components.
+- Consumer has control over most aspect of the infrastructure, but not the underlying hardware components.
 
 Note:
 

@@ -23,13 +23,9 @@ Note:
 
 - Complexity
 - Data Integration and Interoperability
-- Dependency on Network Connectivity
-- Vendor Compatibility
 - Increased Management Overhead
 
 Note:
-- *Complexity*: Managing a hybrid cloud environment involves dealing with the complexity of integrating and orchestrating different cloud models and infrastructure. It requires expertise in hybrid cloud architecture, networking, and security.
+- *Complexity*: Managing a hybrid cloud environment involves dealing with the complexity of integrating and orchestrating different cloud models and infrastructure. It requires expertise in multiple cloud architecture, networking, and security.
 - *Data Integration and Interoperability*: Moving data between public and private cloud environments can present challenges in terms of data integration, consistency, and interoperability.
-- *Dependency on Network Connectivity*: Hybrid cloud heavily relies on reliable network connectivity between the public and private cloud components. Network disruptions or latency issues can impact the performance and availability of applications and data.
-- *Vendor Compatibility*: Hybrid cloud requires compatibility between the public and private cloud components. This can be challenging when using different vendors for each component.
 - *Increased Management Overhead*: Hybrid cloud requires managing multiple cloud environments. IT teams need to oversee multiple platforms, monitor performance, manage security, and ensure consistent governance across the entire hybrid cloud infrastructure.
