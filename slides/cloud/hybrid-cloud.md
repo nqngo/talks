@@ -29,3 +29,18 @@ Note:
 - *Complexity*: Managing a hybrid cloud environment involves dealing with the complexity of integrating and orchestrating different cloud models and infrastructure. It requires expertise in multiple cloud architecture, networking, and security.
 - *Data Integration and Interoperability*: Moving data between public and private cloud environments can present challenges in terms of data integration, consistency, and interoperability.
 - *Increased Management Overhead*: Hybrid cloud requires managing multiple cloud environments. IT teams need to oversee multiple platforms, monitor performance, manage security, and ensure consistent governance across the entire hybrid cloud infrastructure.
+
+---
+
+### How to Hybrid Cloud?
+
+- Generally a bad idea
+- Strict data boundaries
+- Cloud-native containerised applications
+- Target lowest common denominator
+
+Note:
+- *Generally a bad idea*: Hybrid cloud is generally a bad idea. It is complex, expensive, and difficult to manage. It is best to avoid it if possible.
+- *Strict data boundaries*: If you must use hybrid cloud, ensure strict data boundaries between the public and private cloud environments. This will help minimise data integration and interoperability issues.
+- *Cloud-native containerised applications*: Use cloud-native containerised applications to ensure consistency across different cloud environments.
+- *Target lowest common denominator*: Target the lowest common denominator when designing applications. This will help minimise data integration and interoperability issues.

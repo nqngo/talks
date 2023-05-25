@@ -41,7 +41,7 @@ Note:
 - Active security monitoring?
 
 Note:
-- *Telemetry:* gather real-time data and performance metrics about the infrastructure. It helps in proactive monitoring, identifying performance bottlenecks, and optimising resource utilisation.Tools such as Prometheus, Grafana, OpenSearch can be used to implement telemetry.
+- *Telemetry:* gather "real-time" data and performance metrics about the infrastructure. It helps in proactive monitoring, identifying performance bottlenecks, and optimising resource utilisation.Tools such as Prometheus, Grafana, OpenTelemetry can be used to implement telemetry.
 - *Continuous load testing:* simulate various workload scenarios and ensure the private cloud can handle the expected demand. For example, an hourly test that provisions a new tenant, deploys a new application, and runs a load test then tears down the tenant.
 - *Security and compliance:* security measures such as firewalls, encryption, access controls, and identity management to protect data and infrastructure.
 - *Capacity planning:* analysing historical usage patterns, forecasting growth, and allocating resources to ensure that the private cloud infrastructure can meet current and future demands.
