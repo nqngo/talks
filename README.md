@@ -19,4 +19,4 @@ Build with [Reveal.js](https://revealjs.com).
 ## License
  
 MIT licensed.
-Copyright (C) 2021- Nhat Ngo / Behind the Clouds.
+Copyright (C) 2021- Nhat Ngo.
