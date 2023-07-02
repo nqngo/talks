@@ -11,6 +11,7 @@ This repo is a collection of talks given over the years.
 ### 2023
 
 - Private Skies: Design, Deploy, Build Private Cloud Infrastructure: [Slide](https://talks.nhat.ngo.cx/2023-private-cloud)
+- Introduction to Secrets Management: [Slides](https://talks.nhat.ngo.cx/2023-secrets-management-intro)
 
 ## Library
 
