@@ -18,7 +18,7 @@ In the context of information technology (IT):
 
 ---
 
-## What is <span class="color-yellow-500">**Secrets Management**</span>
+## What is <span class="color-yellow-500">**Secrets Management?**</span>
 
 ---
 
@@ -46,10 +46,10 @@ Note:
 
 ### Poor <span class="color-yellow-500">**Secrets Management**</span>
 
-- Data Breaches
-- Compliance Violations and Financial Penalties
+- [Data Breaches](https://edition.cnn.com/2019/07/29/business/capital-one-data-breach/index.html)
+- [Compliance Violations and Financial Penalties](https://www.forbes.com/sites/carlypage/2020/10/30/marriott-hit-with-184-million-gdpr-fine-over-massive-2018-data-breach/?sh=5c9112e4b02b)
 - Operational Disruptions
-- Damage to Reputation
+- [Damage to Reputation](https://www.businessinsider.com/heres-what-happened-to-your-target-data-that-was-hacked-2014-10)
 
 Note:
 
@@ -57,6 +57,6 @@ Note:
 [https://edition.cnn.com/2019/07/29/business/capital-one-data-breach/index.html](https://edition.cnn.com/2019/07/29/business/capital-one-data-breach/index.html)
 - **Compliance Violations and Financial Penalties:** In 2020, the UK's Information Commissioner's Office fined Marriott International £18.4 million for failing to secure personal data in breach of the GDPR.
 [https://www.forbes.com/sites/carlypage/2020/10/30/marriott-hit-with-184-million-gdpr-fine-over-massive-2018-data-breach/?sh=5c9112e4b02b](https://www.forbes.com/sites/carlypage/2020/10/30/marriott-hit-with-184-million-gdpr-fine-over-massive-2018-data-breach/?sh=5c9112e4b02b)
-- Operational Disruptions: Improper secret management can result in system outages. If critical credentials, such as those needed for a database, are lost or inadvertently changed, it can cause significant downtime.
-
-Damage to Reputation: Breaches due to poor secrets management can harm an organization's reputation, leading to loss of customer trust. The breach of Target's point-of-sale systems in 2013, caused by stolen vendor credentials, affected 40 million credit and debit cards and significantly damaged the company's image.
+- **Operational Disruptions:** Improper secret management can result in system outages. If critical credentials, such as those needed for a database, are lost or inadvertently changed, it can cause significant downtime.
+- **Damage to Reputation:** Breaches due to poor secrets management can harm an organization's reputation, leading to loss of customer trust. The breach of Target's point-of-sale systems in 2013, caused by stolen vendor credentials, affected 40 million credit and debit cards and significantly damaged the company's image.
+[https://www.businessinsider.com/heres-what-happened-to-your-target-data-that-was-hacked-2014-10](https://www.businessinsider.com/heres-what-happened-to-your-target-data-that-was-hacked-2014-10)
