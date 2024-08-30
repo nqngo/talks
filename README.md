@@ -15,7 +15,18 @@ This repo is a collection of talks given over the years.
 
 ## Library
 
-Build with [Reveal.js](https://revealjs.com).
+Built with [Reveal.js](https://revealjs.com) using plain CSS and HTML.
+
+If you are keen on using the same workflow:
+- Clone this repo.
+- Run `git submodule update --init --recursive`.
+- Symlink `index.html` to your latest slide.
+- Then you can simply use `github-pages` to publish `index.html`
+
+To update `reveal.js` dependencies:
+- Go to `reveal.js` submodule.
+- `git fetch`
+- `git switch $version --detach` where `$version` is what you want to use. Eg: `5.1.0`
 
 ## License
  
