@@ -1,28 +1,39 @@
-# Nhat Ngo
+<!--
+.slide: data-background-image="https://images.pexels.com/photos/207580/pexels-photo-207580.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" data-background-opacity="0.2"
+-->
+
+# <span class="color-yellow-400">Nhat Ngo</span>
 
 ---
 
-## How I got here
+<!--
+.slide: data-background-image="https://images.pexels.com/photos/207580/pexels-photo-207580.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" data-background-opacity="0.1"
+-->
 
-- My background: systems engineering.
-- Specialised in CI/CD, automation, and private cloud. 
-- Linux, Python, Ansible, Jenkins, Docker, Kubernetes.
-- Transitioned to cybersecurity.
-- Recruited by a cybersecurity consultancy into Digital Engineering.
-- Mostly focus on DevSecOps, cloud security, and zero trust secrets management.
-- Upskill in vendor-specific technologies: Kubernetes, HashiCorp, etc.
+## <span class="color-yellow-500">How I got here</span>
+
+- Background in <span class="color-yellow-400">Systems engineering</span>.
+- _CI/CD, automation, private cloud_.
+- _Linux, Python, Ansible, Jenkins, Docker, Kubernetes_.
+- Recruited by a cybersecurity consultancy to Digital Engineering.
+- DevSecOps, cloud security, zero trust secrets management.
+- Upskill in vendor-specific technologies like _CyberArk_, _HashiCorp_.
 
 Note:
 
-You don't need to have a cybersecurity background to get into cybersecurity. You can leverage your existing skills and experience to transition into the field. In fact, having a diverse background can be an advantage as it allows you to close the gap between cybersecurity and business operations.
+You don't need a cybersecurity background to enter the field. Leveraging your existing skills and experience can make the transition smoother. In fact, a diverse background can be an advantage, enabling you to bridge the gap between cybersecurity and business operations.
 
-I work mostly in the DevSecOps space, which is the intersection of development, operations, and security. In a consultancy, you will need to be able to be able to demonstrate your expertise in a selection of vendor-specific technologies. It would help tremedously if you can get certified in these technologies before you start.
+My focus is mainly on the DevSecOps space, which lies at the intersection of development, operations, and security. In a consultancy role, demonstrating expertise in vendor-specific technologies is crucial. Earning certifications in these areas is a significant advantage when working with clients.
 
-However, certifications can only help you get your foot in the door. They are not a substitute for real-world experience. You will need to continuously learn and adapt to stay relevant in the field. A home lab can be a great way to experiment.
+However, while certifications can help you get your foot in the door, they're not a substitute for real-world experience. Continuous learning and adaptation are key to staying relevant in the field, and maintaining a home lab can be an excellent way to experiment and grow.
 
 ---
 
-## What I do
+<!--
+.slide: data-background-image="https://images.pexels.com/photos/207580/pexels-photo-207580.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" data-background-opacity="0.2"
+-->
+
+## <span class="color-yellow-400">What I do</span>
 
 - Help organisations to secure their digital assets.
 - Automate security controls and compliance.
@@ -33,46 +44,41 @@ However, certifications can only help you get your foot in the door. They are no
 
 Note:
 
-I focus mostly on secret and certificate management. Usually, I work with HashiCorp Vault, CyberArk, and automation tools like Ansible, Terraform, Github, Gitlab and Jenkins. I also work with Kubernetes and Docker to secure containerised workloads.
+My primary focus is on secrets and certificate management, often working with tools like HashiCorp Vault, CyberArk, and automation tools such as Ansible, Terraform, GitHub, GitLab, and Jenkins. I also secure containerised workloads with Kubernetes and Docker.
 
-CI/CD is a now increasingly important part of the software development lifecycle. It allows developers to deliver code faster and more reliably. However, it also introduces new security challenges, especially around secrets management. Everybody wants to ship code faster, but nobody wants to deal with the security aftermath of a breach.
+CI/CD is now a critical component of the software development lifecycle, allowing for faster and more reliable code delivery. However, it also introduces new security challenges, especially around secrets management. Everyone wants to ship code quickly, but no one wants to deal with the aftermath of a security breach.
 
-Usually a business will have a overarching security policy that they request you to implement. You will need to understand the business context and translate that into technical requirements. They will also have a budget that you will need to work within. This mean the best solution is not always the most secure solution. You will need to balance security with usability and cost.
+Typically, a business will have an overarching security policy that they’ll ask you to implement. You need to understand the business context and translate that policy into technical requirements. Budget constraints also mean that the best solution isn't always the most secure one. You'll need to balance security with usability and cost.
 
-This is where negotiation and communication skills come into play. You will need to be able to explain complex technical concepts to non-technical stakeholders and business owners. You will also need to be able to translate business requirements into technical requirements for developers.
+This is where negotiation and communication skills are crucial. You must explain complex technical concepts to non-technical stakeholders and business owners, and translate business requirements into technical requirements for developers.
 
 ---
 
-## What I have learned
+<!--
+.slide: data-background-image="https://images.pexels.com/photos/207580/pexels-photo-207580.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" data-background-opacity="0.2"
+-->
+
+## <span class="color-yellow-500">What I have learned</span>
 
 - Your audience is not just the technical team.
-- You need to communicate with stakeholders, business owners, and developers.
+- Engage with stakeholders, business owners, and developers.
 - You need to understand the business context.
-- You need to be able to translate technical jargon into business language.
+- Convert technical jargon into business language.
 - Documentation is key.
-- Avoid being a gatekeeper, you are an enabler.
+- **Don't be a gatekeeper, be an enabler.**
 
 Note:
 
-Most of the time, your engagement will start with a business owner who has a problem that they need you to solve. You might not always have direct access to the technical team, so you will need to be able to explain complex technical concepts in a way that non-technical stakeholders can understand.
+Most engagements start with a business owner who needs a problem solved. You might not always have direct access to the technical team, so you need to explain complex technical concepts in a way that non-technical stakeholders can understand.
 
-This is where you will need to understand the business context. You will need to be able to explain the technical implications of business decisions to business owners. Negotiation and communication skills are the key. You do not want to be seen as a roadblock to progress; however, you also need to ensure that the business is aware of the risks that they are taking and put your foot down when necessary.
+Understanding the business context is crucial. You must explain the technical implications of business decisions to the relevant stakeholders. Negotiation and communication skills are vital—you don’t want to be seen as an obstacle to progress, but you also need to ensure the business understands the risks involved and enforce security when necessary.
 
-This is where documentation comes into play. You will need to document your decisions and the reasons behind them. This is not only for compliance reasons, but also to ensure that you can refer back to them when you need to explain your decisions to the business.
+Documentation is critical for compliance and providing a record of decisions made, especially when dealing with audits or incidents. It also helps to ensure that everyone is on the same page and that you can refer back to previous decisions.
 
-At the same time, you need to be an enabler. Good security is not about saying no to everything. It is about finding a way to say yes in a secure way. Business owners might have a different goal than the technical team. You will need to find a way to balance these goals and ensure that the business can operate securely.
+At the same time, you need to be an enabler. Good security isn't about saying no to everything; it's about finding ways to say yes securely. Business owners may have different goals from the technical team, so you need to balance these objectives and ensure secure business operations.
 
-Let works a true scenario, the development team wants to ship code faster, but the business owner wants to ensure that the production environment secret is logged and audited. A bad solution would be to create a form that the developer needs to fill out every time they need a secret. An enabler solution would be to automate the secret retrieval process and log the secret retrieval process.
+For instance, if the development team wants to ship code faster, but the business owner wants to ensure production environment secrets are logged and audited, a poor solution would be to create a manual form for secret requests. An enabling solution would be to automate the secret retrieval process while logging and auditing the requests.
 
-You will also need to communicate different value propositions to different stakeholders. In the above example, you would communicate to the business owner that the secrets are logged and audited, while you would communicate to the development team that they can retrieve secrets faster.
+You must also communicate different value propositions to different stakeholders. In the example above, you’d assure the business owner that secrets are logged and audited, while informing the development team that they can retrieve secrets more efficiently.
 
-Remember, you will need to walk a fine line between security, usability, and cost. Saying no to everything will not make you popular. You will have a difficult time getting buy-in from the business and become a trust advisor.
-
----
-
-## Typical workday
-
-- You still need to write code.
-- You will need to write documentation.
-- You will need to sit in meetings.
-- You will need to represent the security team.
+Ultimately, you need to strike a balance between security, usability, and cost. Saying no to everything won’t make you popular and will hinder your ability to get buy-in from the business and establish yourself as a trusted advisor.

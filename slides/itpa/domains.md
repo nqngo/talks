@@ -1,4 +1,8 @@
-## Cybersecurity Domains
+<!--
+.slide: data-background-image="https://images.pexels.com/photos/60504/security-protection-anti-virus-software-60504.jpeg" data-background-opacity="0.2"
+-->
+
+## <span class="color-yellow-500">Cybersecurity Domains</span>
 
 Note:
 
@@ -8,16 +12,18 @@ Depending on the context, a cyber domain can be defined in different ways. For u
 
 ---
 
-![ISC2 logo](https://www.isc2.org/-/media/Project/ISC2/Main/Media/logos/logo.svg?iar=0&rev=07c9a854362e42ae9395034e8f867452&hash=CE7CAB00A81C225005982B41EBD87962)
+<!--
+.slide: data-background-image="https://intrinsecsecurity.com/wp-content/uploads/2018/04/isc2-generic-thumb.jpg" data-background-opacity="0.2"
+-->
 
-1. Security and Risk Management
-2. Asset Security
-3. Security Architecture and Engineering
-4. Communication and Network Security
-5. Identity and Access Management (IAM)
-6. Security Assessment and Testing
-7. Security Operations
-8. Software Development Security
+1. *Security and __Risk Management__*
+2. *__Asset__ Security*
+3. *__Security Architecture__ and Engineering*
+4. *Communication and __Network Security__*
+5. *Identity and Access Management (__IAM__)*
+6. *Security Assessment and __Testing__*
+7. *Security Operations (__SecOps__)*
+8. *Software Development Security*
 
 Note:
 
@@ -43,7 +49,11 @@ https://www.isc2.org/certifications/cissp/cissp-certification-exam-outline
 
 ---
 
-### Mind Map of Cybersecurity Domains
+<!--
+.slide: data-background-image="https://intrinsecsecurity.com/wp-content/uploads/2018/04/isc2-generic-thumb.jpg" data-background-opacity="0.2"
+-->
+
+### <span class="color-yellow-500">Cybersecurity Domains</span>
 
 ![Tao Security Mind Map of Cybersecurity Domain](https://media.licdn.com/dms/image/v2/C4E12AQFEgFdbEtEl3Q/article-inline_image-shrink_1500_2232/article-inline_image-shrink_1500_2232/0/1619282900607?e=1730332800&v=beta&t=_v_5jWZJ82saSRVbLQy30_UCHOzU4FPK0fe61To4vM4)
 
@@ -56,3 +66,20 @@ https://www.linkedin.com/pulse/cybersecurity-domain-map-ver-30-henry-jiang/
 You usually specialise in one or a few domains depending on the size of your organisation and your role. However, it is likely that you will need to work across multiple domains at some point in your career. Understanding the relationships between the domains can help you develop a more holistic view of cybersecurity and make better decisions on your career path.
 
 In this talk, we will focus on speaking about the domains that we have experience in and can provide practical advice on. We hope that this will help you build a solid foundation in cybersecurity and prepare you for a career in the field.
+
+---
+
+<!--
+.slide: data-background-image="https://intrinsecsecurity.com/wp-content/uploads/2018/04/isc2-generic-thumb.jpg" data-background-opacity="0.2"
+-->
+
+### <span class="color-yellow-500">Cybersecurity Domains</span>
+
+[![CISO Mindmap 2024](https://rafeeqrehman.com/wp-content/uploads/2024/03/CISO_MindMap_2024-2.png)](https://rafeeqrehman.com/ciso-mindmap/)
+
+Note:
+
+Alternatively, you can refer to the CISO Mindmap 2024 by Rafeeq Rehman. This mindmap provides a comprehensive view of the skills and knowledge required to work in cybersecurity and can help you plan your learning journey. You can find the latest version at:
+
+https://rafeeqrehman.com/ciso-mindmap/
+

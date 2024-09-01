@@ -1,37 +1,47 @@
-### Reality of Digital Age
+<!--
+.slide: data-background-image="https://images.pexels.com/photos/27396197/pexels-photo-27396197/free-photo-of-a-laptop-with-headphones-and-a-tablet-on-a-table.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" data-background-opacity="0.1"
+-->
+
+## <span class="color-yellow-400">Reality of Digital Age</span>
 
 <div class="r-stack">
   <img
-    class="fragment"
+    class="fragment fade-up"
     src="https://img.creativemark.co.uk/uploads/images/819/16819/img3File.png"
     width="300"
   />
   <img
-    class="fragment"
+    class="fragment fade-down"
     src="https://singlemum.com.au/wp-content/uploads/2020/03/FFE968FC-E5DF-4010-9557-605C0E7D094A.jpeg"
     width="300"
   />
   <img
-    class="fragment"
+    class="fragment fade-in-then-semi-out"
     src="https://www.commbank.com.au/content/dam/commbank-assets/business/online-banking/2019-01/transaction-history-2.jpg"
     width="600"
   />
   <img
-    class="fragment"
+    class="fragment fade-up"
     src="https://play-lh.googleusercontent.com/oohfFUDVmzmPnUd7gsZ5tagqWrrp-oxOEeF76K43GOx6ayLd0NNZv_5GhC1UC1uzsr4=w2560-h1440-rw"
     width="300"
   />
 </div>
 
----
-
-Your (_and your customers'_) private conversations, financial information, or even your identity can be stolen with a few clicks.
-
 Note:
 
 In the modern digital age, our lives are deeply intertwined with technology. We communicate with friends, conduct business, manage our finances, and even verify our identities online. This seamless integration with technology brings convenience but also introduces significant risks.
 
-However, this interconnectedness also means that with a few malicious clicks, your private conversations, financial information, and even your identity can be compromised. It’s easy to assume that these risks only affect individuals on a small scale, but the reality is that a single security failure can lead to business-ending events if it results in widespread financial harm to your customers.
+---
+
+<!--
+.slide: data-background-image="https://images.pexels.com/photos/27396197/pexels-photo-27396197/free-photo-of-a-laptop-with-headphones-and-a-tablet-on-a-table.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" data-background-opacity="0.1"
+-->
+
+Private conversations, financial information, or even your identity <span class="color-yellow-500">**can be stolen**</span> _with a few clicks_.
+
+Note:
+
+This interconnectedness also means that with a few malicious clicks, your private conversations, financial information, and even your identity can be compromised. It’s easy to assume that these risks only affect individuals on a small scale, but the reality is that a single security failure can lead to business-ending events if it results in widespread financial harm to your customers.
 
 The Optus Hack (2022) exposed the personal data of 10 million customers, including names, birthdates, addresses, phone numbers, and identification numbers such as passports and driver’s licences. The breach placed 2.8 million Australians at high risk of identity theft and fraud, and its consequences are still being felt today. The hack cost Optus at least $140 million AUD in remedial efforts, alongside an immediate net loss of $57 million in stock value.
 
@@ -39,13 +49,17 @@ Similarly, Code Spaces (2014), a cloud-hosting provider, suffered a catastrophic
 
 ---
 
+<!--
+.slide: data-background-image="https://images.pexels.com/photos/8112199/pexels-photo-8112199.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" data-background-opacity="0.2"
+-->
+
 - Cybersecurity is not just about protecting yourself.
-- Cybersecurity is an *business* obligation.
+- Cybersecurity is a <span class="color-yellow-400">_**business obligation**_</span>.
 - Relevant regulations:
-  - Security of Critical Infrastructure Act 2018
-  - The Privacy Act 1988
-  - Criminal Code Act 1995
-  - States and industry regulations laws.
+  - *Security of Critical Infrastructure Act 2018*
+  - *The Privacy Act 1988*
+  - *Criminal Code Act 1995*
+  - *States and industry regulations laws*
 
 Note:
 
@@ -63,10 +77,14 @@ A few important regulations to follow up on are as followed:
 
 ---
 
-- Cybersecurity is no longer a new field.
+<!--
+.slide: data-background-image="https://images.pexels.com/photos/8112199/pexels-photo-8112199.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" data-background-opacity="0.2"
+-->
+
+- Cybersecurity is <span class="color-yellow-500">no longer</span> a new field.
 - It has evolved significantly over the past few decades.
-- Today, it encompasses a wide range of practices, technologies, and strategies.
-- The skills and knowledge required are constantly expanding.
+- Today, it encompasses a wide range of _practices, technologies, and strategies_.
+- The skills and knowledge required are _constantly expanding_.
 
 Note:
 
