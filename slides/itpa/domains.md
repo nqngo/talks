@@ -53,6 +53,6 @@ One useful resource to scope a broad view of cybersecurity domains is from a Lin
 
 https://www.linkedin.com/pulse/cybersecurity-domain-map-ver-30-henry-jiang/
 
-You usually specialise in one or a few domains depending on the size of your organisation and your role. For example, a security analyst may focus on security operations, while a security architect may work in security architecture and engineering. However, it is essential to have a basic understanding of all domains to be effective in cybersecurity.
+You usually specialise in one or a few domains depending on the size of your organisation and your role. However, it is likely that you will need to work across multiple domains at some point in your career. Understanding the relationships between the domains can help you develop a more holistic view of cybersecurity and make better decisions on your career path.
 
-In this course, we will focus on speaking about the domains that we have experience in and can provide practical advice on. We hope that this will help you build a solid foundation in cybersecurity and prepare you for a career in the field.
+In this talk, we will focus on speaking about the domains that we have experience in and can provide practical advice on. We hope that this will help you build a solid foundation in cybersecurity and prepare you for a career in the field.
