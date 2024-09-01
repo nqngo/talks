@@ -5,7 +5,8 @@
 ## How I got here
 
 - My background: network engineer, then move to cybersecurity
-- Specialised in security operation 
+- Specialised in security operation
+- Passion for cybersecurity
 
 Note:
 
@@ -18,6 +19,7 @@ Nothing is impossible. I saw many people moved from vary positiions such as syst
 - Perform security controls maintainance
 - Uplift current security policies
 - Perform risk assessment against vulnerabilities
+- Be part of security incident response
 
 Note:
 
@@ -27,19 +29,13 @@ Note:
 ## What I have learned
 
 - Work under pressure capabilities
+- "Can do" attitude
 - CIA triad, availability is critical and should consider with care when trying to uplift Confidentiality or Integrity
 - Communication - key to your success
-
+- People/Process/Technology
 
 Note:
 
 
 
 ---
-
-## Typical workday
-
-- You still need to write code.
-- You will need to write documentation.
-- You will need to sit in meetings.
-- You will need to represent the security team.
