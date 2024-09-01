@@ -28,14 +28,13 @@ Note:
 
 ## What I have learned
 
-- Work under pressure capabilities
+- Work under pressure capability
 - "Can do" attitude
 - CIA triad, availability is critical and should consider with care when trying to uplift Confidentiality or Integrity
 - Communication - key to your success
 - People/Process/Technology
 
 Note:
-
 
 
 ---
