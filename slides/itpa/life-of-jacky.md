@@ -7,10 +7,11 @@
 - My background: network engineer, then move to cybersecurity
 - Specialised in security operation
 - Passion for cybersecurity
+- CEH/CISSP/CISM
 
 Note:
 
-Nothing is impossible. I saw many people moved from vary positiions such as system engineer, developer to Cybersecurity. To start, you can learn Cybersecurity foundation and concepts.
+I saw many people moved from vary positiions such as system engineer, developer to Cybersecurity. To start, you can learn Cybersecurity foundation and concepts.
 ---
 
 ## What I do
@@ -23,16 +24,22 @@ Nothing is impossible. I saw many people moved from vary positiions such as syst
 
 Note:
 
-- Communication is the key to your success. I recommend to learn ITIL which is beneficial for daily work. 7 guiding principles will help you to formalise the work and ensure the success of your security implementaion.
+- Communication is the key to your success. I recommend to learn ITIL (Information Technology Infrastructure Library) is a set of practices and a framework for IT activities such as IT service management and IT asset management that focus on aligning IT services with the needs of the busines, which is beneficial for daily work. Seven guiding principles of ITIL  will help you to ensure the success of your cybersecurity implementaion.
+1. Focus on value
+2. Start where you are
+3. Progress iteratively with feedback
+4. Collaborate and promote visibility
+5. Think and work holistically
+6. Keep it simple and practical
+7. Optimize and automate
 ---
 
 ## What I have learned
 
 - Work under pressure capability
 - "Can do" attitude
-- CIA triad, availability is critical and should consider with care when trying to uplift Confidentiality or Integrity
+- CIA triad of information security: availability principle is critical and should consider with care when trying to uplift Confidentiality or Integrity principles
 - Communication - key to your success
-- People/Process/Technology
 
 Note:
 
