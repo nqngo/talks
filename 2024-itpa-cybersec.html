@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <title>Getting Started with Secrets Management</title>
+
+        <link rel="stylesheet" href="reveal.js/dist/reset.css">
+        <link rel="stylesheet" href="reveal.js/dist/reveal.css">
+        <link rel="stylesheet" href="reveal.js/dist/theme/night.css">
+        <link rel="stylesheet" href="reveal.js/plugin/highlight/monokai.css">
+        <link rel="stylesheet" href="css/common.css">
+        <link rel="stylesheet" href="css/openstack.css">
+    </head>
+    <body>
+        <div class="reveal">
+
+            <header/>
+
+            <div class="slides">
+
+                <section id="title"
+                         data-state="title-slide"
+                         data-background-video="https://videos.pexels.com/video-files/3130182/3130182-uhd_2560_1440_30fps.mp4"
+                         data-background-size="cover"
+                         data-background-opacity="0.2"
+                         data-background-video-loop
+                         data-background-video-muted>
+                        <p>Cracking the</p>
+                        <h3 class="title"><span class="color-yellow-400">Cyber Security Industry</span></h3>
+
+                        <p>An event by:</p>
+                        <img src="https://itpa.tech/wp-content/uploads/2024/08/ITPA_Logo_Transparent.png" alt="ITPA" class="logo">
+                </section>
+                <section id="intro"
+                         data-markdown="slides/itpa/intro.md"
+                         data-separator-vertical="^---"
+                         data-separator="^------">
+                </section>
+                <section id="whoami"
+                         data-markdown="slides/itpa/whoami.md"
+                         data-separator-vertical="^---"
+                         data-separator="^------">
+                </section>
+                <section id="domains"
+                        data-markdown="slides/itpa/domains.md"
+                        data-separator-vertical="^---"
+                        data-separator="^------">
+                </section>
+                <section id="a-day-in-the-life-of-nqngo"
+                         data-markdown="slides/itpa/life-of-nqngo.md"
+                         data-separator-vertical="^---"
+                         data-separator="^------">
+                </section>
+                <section id="a-day-in-the-life-of-jacky"
+                         data-markdown="slides/itpa/life-of-jacky.md"
+                         data-separator-vertical="^---"
+                         data-separator="^------">
+                </section>
+                <section id="where-to-get-started"
+                         data-markdown="slides/itpa/where-to-get-started.md"
+                         data-separator-vertical="^---"
+                         data-separator="^------">
+                </section>
+                <section id="conclusion"
+                         data-markdown="slides/itpa/conclusion.md"
+                         data-separator-vertical="^---"
+                         data-separator="^------">
+                </section>
+                <section id="promotions"
+                         data-markdown="slides/itpa/promotions.md"
+                         data-separator-vertical="^---"
+                         data-separator="^------">
+                </section>
+            </div>
+
+            <footer/>
+        </div>
+
+        <script src="reveal.js/dist/reveal.js"></script>
+        <script src="reveal.js/plugin/notes/notes.js"></script>
+        <script src="reveal.js/plugin/search/search.js"></script>
+        <script src="reveal.js/plugin/markdown/markdown.js"></script>
+        <script src="reveal.js/plugin/highlight/highlight.js"></script>
+        <script src="reveal.js/plugin/zoom/zoom.js"></script>
+        <script>
+            Reveal.initialize({
+                hashOneBasedIndex: true,
+                hash: true,
+                pdfSeparateFragments: false,
+                plantuml: {
+                    serverPath: 'http://www.plantuml.com/plantuml/svg/'
+                },
+                dependencies: [
+                    { src: '//cdn.jsdelivr.net/npm/reveal-plantuml' },
+                ],
+                plugins: [
+                    RevealMarkdown,
+                    RevealSearch,
+                    RevealNotes,
+                    RevealHighlight,
+                    RevealZoom
+                ]
+            });
+            
+        </script>
+    </body>
+</html>

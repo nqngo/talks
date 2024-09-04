@@ -13,6 +13,10 @@ This repo is a collection of talks given over the years.
 - Private Skies: Design, Deploy, Build Private Cloud Infrastructure: [Slide](https://talks.nhat.ngo.cx/2023-private-cloud)
 - Introduction to Secrets Management: [Slides](https://talks.nhat.ngo.cx/2023-secrets-management-intro)
 
+### 2024
+
+- ITPA Guest Talk: Cracking the Cybersecurity Industry: [Slides](https://talks.nhat.ngo.cx/2024-itpa-cybersec) 
+
 ## Library
 
 Built with [Reveal.js](https://revealjs.com) using plain CSS and HTML.
