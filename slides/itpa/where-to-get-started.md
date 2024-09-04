@@ -6,6 +6,13 @@
 - Communication, written and presentation skills.
 - Citizenship and security clearance are strong advantages.
 
+Reference link:
+https://www.cyber.gov.au/
+https://www.austcyber.com/resources/dashboards/NICE-workforce-framework
+https://ovic.vic.gov.au/information-security/framework-vpdsf/
+https://www.nist.gov/cyberframework
+
+
 Note:
 
 Cybersecurity certifications are a good starting point for those looking to enter the field. They provide a solid foundation in cybersecurity principles and practices and can help you stand out in a competitive job market. However, generic certifications like CompTIA Security+ are not enough to secure a job in cybersecurity. You will need to specialise in a particular area, such as cloud security, network security, or application security, to be competitive.
