@@ -1,8 +1,11 @@
+<!--
+.slide: data-background-video="https://videos.pexels.com/video-files/2836008/2836008-uhd_2560_1440_24fps.mp4" data-background-opacity="0.2" data-background-size="cover" data-background-video-loop data-background-video-muted
+-->
 
-### Where to get started
+## <span class="color-yellow-400">Where to get started</span>
 
-- Cybersecurity Certifications.
-- Strong Operational background.
+- Cybersecurity **Certifications**.
+- Strong operational background.
 - Communication, written and presentation skills.
 - Citizenship and security clearance are strong advantages.
 
@@ -32,7 +35,11 @@ Please note that this roadmap is not exhaustive, and there are many other certif
 
 ---
 
-Or perhaps start with some general skills:
+<!--
+.slide: data-background-video="https://videos.pexels.com/video-files/2836008/2836008-uhd_2560_1440_24fps.mp4" data-background-opacity="0.2" data-background-size="cover" data-background-video-loop data-background-video-muted
+-->
+
+Or perhaps start with some roadmaps:
 
 - [Roadmap.sh: Cybersecurity](https://roadmap.sh/cyber-security)
 - [Roadmap.sh: DevOps](https://roadmap.sh/devops)
@@ -43,7 +50,12 @@ If you are looking for a more general roadmap to get started in cybersecurity or
 
 Remember that you will need solid technical foundations as well as certifications to succeed.
 
+
 ---
+
+<!--
+.slide: data-background-video="https://videos.pexels.com/video-files/2836008/2836008-uhd_2560_1440_24fps.mp4" data-background-opacity="0.2" data-background-size="cover" data-background-video-loop data-background-video-muted
+-->
 
 Practice your public speaking. Write a blog. Join a community.
 

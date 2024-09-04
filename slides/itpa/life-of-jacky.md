@@ -1,8 +1,15 @@
-# Jacky Vi
+<!--
+.slide: data-background-image="https://images.pexels.com/photos/5483064/pexels-photo-5483064.jpeg" data-background-opacity="0.2"
+-->
+
+# <span class="color-yellow-400">Jacky Vi</span>
 
 ---
+<!--
+.slide: data-background-image="https://images.pexels.com/photos/5483064/pexels-photo-5483064.jpeg" data-background-opacity="0.2"
+-->
 
-## How I got here
+## <span class="color-yellow-500">How I got here</span>
 
 - My background: network engineer, then move to cybersecurity
 - Specialised in security operation
@@ -13,8 +20,11 @@ Note:
 
 I saw many people moved from vary positiions such as system engineer, developer to Cybersecurity. To start, you can learn Cybersecurity foundation and concepts.
 ---
+<!--
+.slide: data-background-image="https://images.pexels.com/photos/5483064/pexels-photo-5483064.jpeg" data-background-opacity="0.2"
+-->
 
-## What I do
+## <span class="color-yellow-500">What I do</span>
 
 - Daily security monitoring for alerts and triage
 - Perform security controls maintainance
@@ -32,9 +42,13 @@ Note:
 5. Think and work holistically
 6. Keep it simple and practical
 7. Optimize and automate
----
 
-## What I have learned
+---
+<!--
+.slide: data-background-image="https://images.pexels.com/photos/5483064/pexels-photo-5483064.jpeg" data-background-opacity="0.2"
+-->
+
+## <span class="color-yellow-500">What I have learned</span>
 
 - Work under pressure capability
 - "Can do" attitude
@@ -42,6 +56,3 @@ Note:
 - Communication - key to your success
 
 Note:
-
-
----
