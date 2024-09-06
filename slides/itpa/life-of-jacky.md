@@ -5,14 +5,11 @@
 # <span class="color-yellow-400">Jacky Vi</span>
 
 ---
-
 <!--
-.slide: data-background-image="https://images.pexels.com/photos/5483064/pexels-photo-5483064.jpeg?cs=srgb&dl=pexels-cottonbro-5483064.jpg&fm=jpg" data-background-opacity="0.1"
+.slide: data-background-image="https://images.pexels.com/photos/5483064/pexels-photo-5483064.jpeg" data-background-opacity="0.2"
 -->
 
 ## <span class="color-yellow-500">How I got here</span>
-
----
 
 - My background: network engineer, then move to cybersecurity
 - Specialised in security operation
@@ -32,12 +29,11 @@ Certified Information Security Manager (CISM) - affirms your ability to assess r
 planned Certified CyberDefender (CCD) - Blue team and SOC analyst certification - 48 hours exam lab, focusing on practical skills, simulating real work investigations
 
 ---
-
 <!--
-.slide: data-background-image="https://images.pexels.com/photos/5483064/pexels-photo-5483064.jpeg?cs=srgb&dl=pexels-cottonbro-5483064.jpg&fm=jpg" data-background-opacity="0.1"
+.slide: data-background-image="https://images.pexels.com/photos/5483064/pexels-photo-5483064.jpeg" data-background-opacity="0.2"
 -->
 
-## <span class="color-yellow-400">What I do</span>
+## <span class="color-yellow-500">What I do</span>
 
 - Daily security monitoring for alerts and triage
 - Perform security controls maintainance
@@ -92,4 +88,3 @@ Question to everyone: which property is the most important?
 In my opinion, Availability property is critical and should consider with care when trying to uplift other properties. You can't protect a service you can't deliver
 
 - Communication: as always, you are not alone. From time to time, you will need supportive from other team members and other stakeholders. That's a number 4 of ITIL: Collaborate and promote visibility . You need to let people know what you are doing and why. It will help to ensure your success.
----

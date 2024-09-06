@@ -1,17 +1,14 @@
+<!--
+.slide: data-background-video="https://videos.pexels.com/video-files/2836008/2836008-uhd_2560_1440_24fps.mp4" data-background-opacity="0.2" data-background-size="cover" data-background-video-loop data-background-video-muted
+-->
 
-### Where to get started
+## <span class="color-yellow-400">Where to get started</span>
 
-- Cybersecurity Certifications.
-- Strong Operational background.
+- Cybersecurity **Certifications**.
+- Strong operational background.
 - Communication, written and presentation skills.
 - Citizenship and security clearance are strong advantages.
-
-Reference link:
-https://www.cyber.gov.au/
-https://www.austcyber.com/resources/dashboards/NICE-workforce-framework
-https://ovic.vic.gov.au/information-security/framework-vpdsf/
-https://www.nist.gov/cyberframework
-
+- Do not reinvent the wheel, leverage existing frameworks.
 
 Note:
 
@@ -39,7 +36,11 @@ Please note that this roadmap is not exhaustive, and there are many other certif
 
 ---
 
-Or perhaps start with some general skills:
+<!--
+.slide: data-background-video="https://videos.pexels.com/video-files/2836008/2836008-uhd_2560_1440_24fps.mp4" data-background-opacity="0.2" data-background-size="cover" data-background-video-loop data-background-video-muted
+-->
+
+Or perhaps start with some **roadmaps**:
 
 - [Roadmap.sh: Cybersecurity](https://roadmap.sh/cyber-security)
 - [Roadmap.sh: DevOps](https://roadmap.sh/devops)
@@ -50,9 +51,14 @@ If you are looking for a more general roadmap to get started in cybersecurity or
 
 Remember that you will need solid technical foundations as well as certifications to succeed.
 
+
 ---
 
-Practice your public speaking. Write a blog. Join a community.
+<!--
+.slide: data-background-video="https://videos.pexels.com/video-files/2836008/2836008-uhd_2560_1440_24fps.mp4" data-background-opacity="0.2" data-background-size="cover" data-background-video-loop data-background-video-muted
+-->
+
+Practice your public speaking. Write a blog. **Join a community**.
 
 - [Toastmasters International](https://www.toastmasters.org/)
 - [ITPA](https://itpa.tech/about-us/)
@@ -60,3 +66,20 @@ Practice your public speaking. Write a blog. Join a community.
 Note:
 
 Don't be afraid to practice your public speaking skills. Join a local Toastmasters club to improve your communication and presentation skills. Writing a blog can also help you develop your writing skills and showcase your knowledge to potential employers. Why not join a community like ITPA and discuss your ideas with like-minded professionals?
+
+---
+
+<!--
+.slide: data-background-video="https://videos.pexels.com/video-files/2836008/2836008-uhd_2560_1440_24fps.mp4" data-background-opacity="0.2" data-background-size="cover" data-background-video-loop data-background-video-muted
+-->
+
+Reference Existing Resources:
+
+- [Cyber.gov.au](https://www.cyber.gov.au/)
+- [NICE framework](https://www.austcyber.com/resources/dashboards/NICE-workforce-framework)
+- [VPDSF framework](https://ovic.vic.gov.au/information-security/framework-vpdsf/)
+- [NIST](https://www.nist.gov/cyberframework)
+
+Note:
+
+Avoid reinventing the wheels, using existing frameworks and resources will save you significant time and effort. It is also much easier to get buy-in from stakeholders when you can reference established standards and best practices.
