@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <title>Hyperstack Automation with Terraform Provider</title>
+
+        <link rel="stylesheet" href="reveal.js/dist/reset.css">
+        <link rel="stylesheet" href="reveal.js/dist/reveal.css">
+        <link rel="stylesheet" href="reveal.js/dist/theme/night.css">
+        <link rel="stylesheet" href="reveal.js/plugin/highlight/monokai.css">
+        <link rel="stylesheet" href="css/common.css">
+        <link rel="stylesheet" href="css/openstack.css">
+    </head>
+    <body>
+        <div class="reveal">
+
+            <header/>
+
+            <div class="slides">
+
+                <section id="title"
+                         data-state="title-slide"
+                         data-background-image="https://26282475.fs1.hubspotusercontent-eu1.net/hubfs/26282475/Frame%20154%20%282%29.svg"> 
+                        <p>Automation with</p>
+                        <h3 class="title"><span class="color-yellow-400">Hyperstack Terraform Provider</span></h3>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <img src="https://26282475.fs1.hubspotusercontent-eu1.net/hubfs/26282475/hyperstack_2023/Footer/NVDIA-Preferred-bg.svg" alt="Footer" class="logo">
+                </section>
+                <section id="hyperstack"
+                         data-markdown="slides/hyperstack/hyperstack.md"
+                         data-separator-vertical="^---"
+                         data-separator="^------">
+                </section>
+                <section id="terraform"
+                         data-markdown="slides/hyperstack/terraform.md"
+                         data-separator-vertical="^---"
+                         data-separator="^------">
+                </section>
+                <section id="provider"
+                        data-markdown="slides/hyperstack/provider.md"
+                        data-separator-vertical="^---"
+                        data-separator="^------">
+                </section>
+                <section id="demo"
+                         data-markdown="slides/hyperstack/demo.md"
+                         data-separator-vertical="^---"
+                         data-separator="^------">
+                </section>
+                <section id="progress"
+                         data-markdown="slides/hyperstack/progress.md"
+                         data-separator-vertical="^---"
+                         data-separator="^------">
+                </section>
+            </div>
+
+            <footer/>
+        </div>
+
+        <script src="reveal.js/dist/reveal.js"></script>
+        <script src="reveal.js/plugin/notes/notes.js"></script>
+        <script src="reveal.js/plugin/search/search.js"></script>
+        <script src="reveal.js/plugin/markdown/markdown.js"></script>
+        <script src="reveal.js/plugin/highlight/highlight.js"></script>
+        <script src="reveal.js/plugin/zoom/zoom.js"></script>
+        <script>
+            Reveal.initialize({
+                hashOneBasedIndex: true,
+                hash: true,
+                pdfSeparateFragments: false,
+                plantuml: {
+                    serverPath: 'http://www.plantuml.com/plantuml/svg/'
+                },
+                dependencies: [
+                    { src: '//cdn.jsdelivr.net/npm/reveal-plantuml' },
+                ],
+                plugins: [
+                    RevealMarkdown,
+                    RevealSearch,
+                    RevealNotes,
+                    RevealHighlight,
+                    RevealZoom
+                ]
+            });
+            
+        </script>
+    </body>
+</html>
