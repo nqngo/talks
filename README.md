@@ -16,6 +16,8 @@ This repo is a collection of talks given over the years.
 ### 2024
 
 - ITPA Guest Talk: Cracking the Cybersecurity Industry: [Slides](https://talks.nhat.ngo.cx/2024-itpa-cybersec) 
+- Introducing Hyperstack Terraform Provider: [Slides](https://talks.nhat.ngo.cx/2024-hyperstack-provider)
+- VAIT Career Week: [Slides](https://talks.nhat.ngo.cx/2024-vait-career-week)
 
 ## Library
 
@@ -35,4 +37,4 @@ To update `reveal.js` dependencies:
 ## License
  
 MIT licensed.
-Copyright (C) 2021- Nhat Ngo.
+Copyright (C) 2021-2024 Nhat Ngo.
