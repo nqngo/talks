@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <title>VAIT Career Week (2024)</title>
+
+        <link rel="stylesheet" href="reveal.js/dist/reset.css">
+        <link rel="stylesheet" href="reveal.js/dist/reveal.css">
+        <link rel="stylesheet" href="reveal.js/dist/theme/night.css">
+        <link rel="stylesheet" href="reveal.js/plugin/highlight/monokai.css">
+        <link rel="stylesheet" href="css/common.css">
+        <link rel="stylesheet" href="css/openstack.css">
+    </head>
+    <body>
+        <div class="reveal">
+
+            <header/>
+
+            <div class="slides">
+
+                <section id="title"
+                         data-state="title-slide"
+                         data-background-image="https://avatars.githubusercontent.com/u/51903716?s=200&v=4"
+                         data-background-size="120px"
+                         data-background-repeat="round"
+                         data-background-opacity="0.2"
+                >
+                        <h2 class="title"><span class="color-yellow-400">VAIT</span> Career Week (2024)</h2>
+
+                </section>
+                <section id="intro"
+                         data-markdown="slides/vait/intro.md"
+                         data-separator-vertical="^---"
+                         data-separator="^------">
+                </section>
+                <section id="format"
+                         data-markdown="slides/vait/format.md"
+                         data-separator-vertical="^---"
+                         data-separator="^------">
+                </section>
+                <section id="pregame"
+                         data-markdown="slides/vait/pregame.md"
+                         data-separator-vertical="^---"
+                         data-separator="^------">
+                </section>
+                <section id="icebreaker"
+                        data-markdown="slides/vait/icebreaker.md"
+                        data-separator-vertical="^---"
+                        data-separator="^------">
+                </section>
+                <section id="resume"
+                         data-markdown="slides/vait/resume.md"
+                         data-separator-vertical="^---"
+                         data-separator="^------">
+                </section>
+                <section id="technical"
+                         data-markdown="slides/vait/technical.md"
+                         data-separator-vertical="^---"
+                         data-separator="^------">
+                </section>
+                <section id="qanda"
+                         data-markdown="slides/vait/qa.md"
+                         data-separator-vertical="^---"
+                         data-separator="^------">
+                </section>
+            </div>
+
+            <footer/>
+        </div>
+
+        <script src="reveal.js/dist/reveal.js"></script>
+        <script src="reveal.js/plugin/notes/notes.js"></script>
+        <script src="reveal.js/plugin/search/search.js"></script>
+        <script src="reveal.js/plugin/markdown/markdown.js"></script>
+        <script src="reveal.js/plugin/highlight/highlight.js"></script>
+        <script src="reveal.js/plugin/zoom/zoom.js"></script>
+        <script>
+            Reveal.initialize({
+                hashOneBasedIndex: true,
+                hash: true,
+                pdfSeparateFragments: false,
+                plantuml: {
+                    serverPath: 'http://www.plantuml.com/plantuml/svg/'
+                },
+                dependencies: [
+                    { src: '//cdn.jsdelivr.net/npm/reveal-plantuml' },
+                ],
+                plugins: [
+                    RevealMarkdown,
+                    RevealSearch,
+                    RevealNotes,
+                    RevealHighlight,
+                    RevealZoom
+                ]
+            });
+            
+        </script>
+    </body>
+</html>
