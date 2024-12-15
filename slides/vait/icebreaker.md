@@ -20,4 +20,4 @@ These are area of improvements that can help you make a good first impression du
   - <small>Uh, my name is John, and, uh, I have experience in, like, coding and, uh, yeah, I'm looking for a job where I can... um... grow.</small>
 - **DON'T:** Share overly personal information or controversial topics.
     - <small>My parents are going through a divorce, so I'm looking for a job that can keep me busy.</small>
-    - <small>All greedy CEOs shall pay for their mistakes! I'll show them!</small>
+    - <small>All greedy CEOs shall pay for their mistakes! Mark my words!</small>
